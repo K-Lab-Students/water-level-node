@@ -57,14 +57,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define iaBAT_V_Pin GPIO_PIN_0
-#define iaBAT_V_GPIO_Port GPIOA
 #define iUDS_ECHO_Pin GPIO_PIN_5
 #define iUDS_ECHO_GPIO_Port GPIOA
 #define oUDS_TRIG_Pin GPIO_PIN_6
 #define oUDS_TRIG_GPIO_Port GPIOA
-#define oGSM_DTR_Pin GPIO_PIN_0
-#define oGSM_DTR_GPIO_Port GPIOB
+#define oGSM_DTR_Pin GPIO_PIN_7
+#define oGSM_DTR_GPIO_Port GPIOA
+#define iLORA_AUX_Pin GPIO_PIN_0
+#define iLORA_AUX_GPIO_Port GPIOB
 #define oLORA_M1_Pin GPIO_PIN_1
 #define oLORA_M1_GPIO_Port GPIOB
 #define oLORA_M2_Pin GPIO_PIN_2
@@ -77,6 +77,8 @@ void Error_Handler(void);
 #define DEBUG_UART_TX_GPIO_Port GPIOA
 #define DEBUG_UART_RX_Pin GPIO_PIN_10
 #define DEBUG_UART_RX_GPIO_Port GPIOA
+#define oSTATUS_LED_Pin GPIO_PIN_5
+#define oSTATUS_LED_GPIO_Port GPIOB
 #define I2C_EEPROM_SCL_Pin GPIO_PIN_6
 #define I2C_EEPROM_SCL_GPIO_Port GPIOB
 #define I2C_EEPROM_SDA_Pin GPIO_PIN_7
