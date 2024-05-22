@@ -51,26 +51,26 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, oUDS_TRIG_Pin|oGSM_DTR_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, outUDS_TRIG_Pin|outGSM_DTR_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, oLORA_M1_Pin|oLORA_M2_Pin|oSTATUS_LED_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, outLORA_M0_Pin|outLORA_M1_Pin|outSTATUS_LED_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : PAPin PAPin */
-  GPIO_InitStruct.Pin = oUDS_TRIG_Pin|oGSM_DTR_Pin;
+  GPIO_InitStruct.Pin = outUDS_TRIG_Pin|outGSM_DTR_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pin : PtPin */
-  GPIO_InitStruct.Pin = iLORA_AUX_Pin;
+  GPIO_InitStruct.Pin = inLORA_AUX_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(iLORA_AUX_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(inLORA_AUX_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PBPin PBPin PBPin */
-  GPIO_InitStruct.Pin = oLORA_M1_Pin|oLORA_M2_Pin|oSTATUS_LED_Pin;
+  GPIO_InitStruct.Pin = outLORA_M0_Pin|outLORA_M1_Pin|outSTATUS_LED_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
