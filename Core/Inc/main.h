@@ -57,8 +57,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define iUDS_ECHO_Pin GPIO_PIN_5
-#define iUDS_ECHO_GPIO_Port GPIOA
+#define inUDS_ECHO_Pin GPIO_PIN_5
+#define inUDS_ECHO_GPIO_Port GPIOA
 #define outUDS_TRIG_Pin GPIO_PIN_6
 #define outUDS_TRIG_GPIO_Port GPIOA
 #define outGSM_DTR_Pin GPIO_PIN_7
