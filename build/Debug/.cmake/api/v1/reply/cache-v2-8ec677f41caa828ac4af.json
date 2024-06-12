@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-addr2line"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-ar"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-ar"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER_AR",
@@ -47,7 +47,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc-ar"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-gcc-ar"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER_RANLIB",
@@ -63,7 +63,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc-ranlib"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER_WORKS",
@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/blackhand/Projects/STM32/water-level-node.git/build/Debug"
+			"value" : "/Users/artemzubko/Projects/STM32/water-level-node/build/Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -203,7 +203,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "29"
+			"value" : "28"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -215,7 +215,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -243,7 +243,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/blackhand/cmake-3.29.2-linux-x86_64/bin/cmake"
+			"value" : "/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -255,7 +255,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/blackhand/cmake-3.29.2-linux-x86_64/bin/cpack"
+			"value" : "/opt/homebrew/Cellar/cmake/3.28.3/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -267,7 +267,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/blackhand/cmake-3.29.2-linux-x86_64/bin/ctest"
+			"value" : "/opt/homebrew/Cellar/cmake/3.28.3/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -283,7 +283,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc-ar"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-gcc-ar"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -299,7 +299,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc-ranlib"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -395,7 +395,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc-ar"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-gcc-ar"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -411,7 +411,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc-ranlib"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -519,7 +519,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/blackhand/cmake-3.29.2-linux-x86_64/bin/ccmake"
+			"value" : "/opt/homebrew/Cellar/cmake/3.28.3/bin/ccmake"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/blackhand/Projects/STM32/water-level-node.git/build/Debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/artemzubko/Projects/STM32/water-level-node/build/Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/blackhand/Projects/STM32/water-level-node.git"
+			"value" : "/Users/artemzubko/Projects/STM32/water-level-node"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -735,7 +735,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gmake"
+			"value" : "/usr/bin/make"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-nm"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -859,7 +859,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-objdump"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -923,7 +923,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-ranlib"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -939,7 +939,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-readelf"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -951,7 +951,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/blackhand/cmake-3.29.2-linux-x86_64/share/cmake-3.29"
+			"value" : "/opt/homebrew/Cellar/cmake/3.28.3/share/cmake"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-strip"
+			"value" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-strip"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/gcc-arm-none-eabi.cmake"
+			"value" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1227,7 +1227,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/blackhand/Projects/STM32/water-level-node.git/build/Debug"
+			"value" : "/Users/artemzubko/Projects/STM32/water-level-node/build/Debug"
 		},
 		{
 			"name" : "WaterLevelNode_IS_TOP_LEVEL",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/blackhand/Projects/STM32/water-level-node.git"
+			"value" : "/Users/artemzubko/Projects/STM32/water-level-node"
 		},
 		{
 			"name" : "stm32cubemx_BINARY_DIR",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/blackhand/Projects/STM32/water-level-node.git/build/Debug/cmake/stm32cubemx"
+			"value" : "/Users/artemzubko/Projects/STM32/water-level-node/build/Debug/cmake/stm32cubemx"
 		},
 		{
 			"name" : "stm32cubemx_IS_TOP_LEVEL",
@@ -1287,7 +1287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx"
+			"value" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx"
 		}
 	],
 	"kind" : "cache",

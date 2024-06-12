@@ -57,7 +57,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+const unsigned char testString[] = "test\n\r";
 /* USER CODE END 0 */
 
 /**
@@ -104,6 +104,10 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    HAL_GPIO_TogglePin(outSTATUS_LED_GPIO_Port, outSTATUS_LED_Pin);
+    HAL_UART_Transmit(&huart1, testString, sizeof(testString), HAL_MAX_DELAY);
+    HAL_UART_Transmit(&hlpuart1, testString, sizeof(testString), HAL_MAX_DELAY);
+    HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }

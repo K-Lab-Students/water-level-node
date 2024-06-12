@@ -7,7 +7,7 @@
 			{
 				"id" : "GNU",
 				"implicit" : {},
-				"path" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc",
+				"path" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-gcc",
 				"version" : ""
 			},
 			"language" : "ASM",
@@ -29,8 +29,8 @@
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : []
 				},
-				"path" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc",
-				"version" : "7.3.1"
+				"path" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-gcc",
+				"version" : "10.3.1"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
@@ -50,8 +50,8 @@
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : []
 				},
-				"path" : "/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++",
-				"version" : "7.3.1"
+				"path" : "/Users/artemzubko/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.3.1-2.3.1/.content/bin/arm-none-eabi-g++",
+				"version" : "10.3.1"
 			},
 			"language" : "CXX",
 			"sourceFileExtensions" : 

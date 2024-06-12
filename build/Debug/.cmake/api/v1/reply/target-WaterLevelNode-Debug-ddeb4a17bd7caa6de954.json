@@ -64,23 +64,23 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Core/Inc"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Core/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L0xx/Include"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L0xx/Include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -150,23 +150,23 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Core/Inc"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Core/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L0xx/Include"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L0xx/Include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",

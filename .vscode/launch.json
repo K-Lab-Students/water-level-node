@@ -46,7 +46,7 @@
             "request": "launch",
     
             // Потому что на gdb 2018 года ругается
-            "armToolchainPath" : "/home/blackhand/gcc-arm-none-eabi-10.3-2021.10/bin/",
+            // "armToolchainPath" : "/home/blackhand/gcc-arm-none-eabi-10.3-2021.10/bin/",
             
             "type": "cortex-debug",
             
