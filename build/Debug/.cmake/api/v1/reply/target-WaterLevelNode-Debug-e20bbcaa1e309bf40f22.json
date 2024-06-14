@@ -11,7 +11,9 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries"
+			"target_link_libraries",
+			"target_include_directories",
+			"target_sources"
 		],
 		"files" : 
 		[
@@ -31,7 +33,19 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 64,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 49,
 				"parent" : 0
 			}
 		]
@@ -63,24 +77,28 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Core/Inc"
+					"backtrace" : 3,
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/libs/AT24Cxx"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc"
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Core/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L0xx/Include"
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L0xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -121,7 +139,8 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28
 			]
 		},
 		{
@@ -149,30 +168,34 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Core/Inc"
+					"backtrace" : 3,
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/libs/AT24Cxx"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc"
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Core/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L0xx/Include"
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/artemzubko/Projects/STM32/water-level-node/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L0xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/blackhand/Projects/STM32/water-level-node.git/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				28
+				29
 			]
 		}
 	],
@@ -232,19 +255,26 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				28
+				29
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "libs/AT24Cxx/AT24Cxx_stm32_hal.c",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,

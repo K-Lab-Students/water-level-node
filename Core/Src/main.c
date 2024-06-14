@@ -25,7 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "AT24Cxx_stm32_hal.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -57,7 +57,9 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-const unsigned char testString[] = "test\n\r";
+const unsigned char testString[] = "test\n";
+uint8_t i2cData[2] = {0,0};
+uint8_t txData[2] = {0x02,0xED};
 /* USER CODE END 0 */
 
 /**
@@ -84,7 +86,12 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  __HAL_RCC_I2C1_CLK_ENABLE();
+  HAL_Delay(100);
+  __HAL_RCC_I2C1_FORCE_RESET();
+  HAL_Delay(100);
+  __HAL_RCC_I2C1_RELEASE_RESET();
+  HAL_Delay(100);
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -94,7 +101,17 @@ int main(void)
   MX_USART1_UART_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+  AT24Cxx_devices_t device_array;
 
+  AT24Cxx_init(&device_array, 0x00, &hi2c1);
+
+   uint8_t test_receive[66] = {0};
+
+  uint8_t test_bytes[66] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,
+  	  	  	  17,18,19,20,21,22,23,24,25,26,27,28,29,30,
+ 	  	  	  31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,
+ 	  	  	  46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,
+  	  	  	  61,62,63,64,65,66};
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -105,8 +122,22 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     HAL_GPIO_TogglePin(outSTATUS_LED_GPIO_Port, outSTATUS_LED_Pin);
-    HAL_UART_Transmit(&huart1, testString, sizeof(testString), HAL_MAX_DELAY);
-    HAL_UART_Transmit(&hlpuart1, testString, sizeof(testString), HAL_MAX_DELAY);
+
+    if (!HAL_UART_Transmit(&huart1, testString, sizeof(testString), HAL_MAX_DELAY) == HAL_OK) {
+      Error_Handler();
+    }
+    if (!HAL_UART_Transmit(&hlpuart1, testString, sizeof(testString), HAL_MAX_DELAY) == HAL_OK) {
+      Error_Handler();
+    }
+    
+    // AT24Cxx_write_byte_buffer(device_array.devices[0], 0x0010, test_bytes, 66);
+
+	  // HAL_Delay(2);
+
+	  // AT24Cxx_read_byte_buffer(device_array.devices[0], 0x0010, test_receive, 66);
+
+	  // HAL_Delay(1000);
+
     HAL_Delay(500);
   }
   /* USER CODE END 3 */
