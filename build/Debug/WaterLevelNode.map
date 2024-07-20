@@ -10,6 +10,8 @@ Archive member included to satisfy reference by file (symbol)
                               /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (memset)
 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
                               CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj (__aeabi_uidiv)
+/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+                              CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj (__aeabi_idiv)
 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
                               /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_aeabi_uldivmod.o)
@@ -22,12 +24,29 @@ Archive member included to satisfy reference by file (symbol)
                               /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o) (__clzdi2)
 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
                               /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzdi2.o) (__clzsi2)
+/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-calloc.o)
+                              CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj (calloc)
 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
                               CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj (__errno)
+/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                              CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj (memcpy)
+/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-callocr.o)
+                              /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-calloc.o) (_calloc_r)
+/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                              /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-callocr.o) (_malloc_r)
+/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+                              /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                              /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o) (__malloc_lock)
+/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
+                              /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o) (errno)
+/home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+                              /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o) (_free_r)
 
 Allocating common symbols
 Common symbol       size              file
 
+errno               0x4               /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
 hi2c1               0x54              CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
 uwTick              0x4               CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
 pFlash              0x18              CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj
@@ -58,20 +77,107 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
- .data._impure_ptr
-                0x0000000000000000        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
- .data.impure_data
-                0x0000000000000000       0x60 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .rodata._global_impure_ptr
                 0x0000000000000000        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
- .ARM.attributes
-                0x0000000000000000       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
  .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
  .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
  .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
  .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
  .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .text.AT24Cxx_get_max_addr
+                0x0000000000000000       0x54 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .rodata.AT24Cxx_get_max_addr
+                0x0000000000000000       0x18 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .text.AT24Cxx_get_pg_size
+                0x0000000000000000       0x40 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .rodata.AT24Cxx_get_pg_size
+                0x0000000000000000       0x18 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .text.AT24Cxx_add_dev
+                0x0000000000000000       0xb6 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .text.AT24Cxx_get_dev
+                0x0000000000000000       0x20 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .text.AT24Cxx_write_byte
+                0x0000000000000000       0x76 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .text.AT24Cxx_write_byte_buffer
+                0x0000000000000000      0x2ba CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .text.AT24Cxx_read_byte
+                0x0000000000000000       0x6c CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .text.AT24Cxx_read_byte_buffer
+                0x0000000000000000       0x76 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
@@ -116,6 +222,43 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .bss.i2cData   0x0000000000000000        0x2 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .data.txData   0x0000000000000000        0x2 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0xa48 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x125 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x2e CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x28 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0xef CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x6a CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x1df CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x4da CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x11f CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000     0x8248 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x66 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000     0x3590 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x8ae CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x625 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x190 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x13f CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x161 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x82 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x28e CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x1e9 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x128 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x2ab CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x22c CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x5b CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0xa5 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x180 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x788 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0xc6 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x5cf CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000       0x44 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000000000      0x146 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
@@ -333,7 +476,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
  .text.HAL_UART_MspDeInit
-                0x0000000000000000       0x74 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+                0x0000000000000000       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
  .debug_macro   0x0000000000000000      0xa48 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
  .debug_macro   0x0000000000000000      0x125 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
  .debug_macro   0x0000000000000000       0x2e CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
@@ -1021,8 +1164,6 @@ Discarded input sections
                 0x0000000000000000       0x6c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
  .text.HAL_GetTickFreq
                 0x0000000000000000       0x14 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
- .text.HAL_Delay
-                0x0000000000000000       0x44 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
  .text.HAL_SuspendTick
                 0x0000000000000000       0x1c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
  .text.HAL_ResumeTick
@@ -1709,8 +1850,6 @@ Discarded input sections
                 0x0000000000000000      0x1b4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
  .text.HAL_GPIO_ReadPin
                 0x0000000000000000       0x3a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
- .text.HAL_GPIO_TogglePin
-                0x0000000000000000       0x36 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
  .text.HAL_GPIO_LockPin
                 0x0000000000000000       0x52 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
  .text.HAL_GPIO_EXTI_IRQHandler
@@ -1808,10 +1947,6 @@ Discarded input sections
                 0x0000000000000000       0x92 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .text.HAL_DMA_Start_IT
                 0x0000000000000000       0xcc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .text.HAL_DMA_Abort
-                0x0000000000000000       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .text.HAL_DMA_Abort_IT
-                0x0000000000000000       0x90 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .text.HAL_DMA_PollForTransfer
                 0x0000000000000000      0x154 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .text.HAL_DMA_IRQHandler
@@ -1828,12 +1963,6 @@ Discarded input sections
                 0x0000000000000000       0x14 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .text.DMA_SetConfig
                 0x0000000000000000       0x5c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .debug_info    0x0000000000000000      0x85d CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .debug_abbrev  0x0000000000000000      0x1cc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .debug_aranges
-                0x0000000000000000       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .debug_ranges  0x0000000000000000       0x70 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .debug_macro   0x0000000000000000      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .debug_macro   0x0000000000000000      0xa48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .debug_macro   0x0000000000000000      0x125 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .debug_macro   0x0000000000000000       0x2e CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
@@ -1874,12 +2003,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x5cf CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .debug_macro   0x0000000000000000       0x44 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .debug_macro   0x0000000000000000      0x146 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .debug_line    0x0000000000000000      0x906 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .debug_str     0x0000000000000000    0x6c749 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .comment       0x0000000000000000       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .debug_frame   0x0000000000000000      0x1b0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
- .ARM.attributes
-                0x0000000000000000       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj
@@ -2161,8 +2284,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
- .text.__NVIC_EnableIRQ
-                0x0000000000000000       0x34 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .text.__NVIC_DisableIRQ
                 0x0000000000000000       0x40 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .text.__NVIC_GetPendingIRQ
@@ -2174,8 +2295,6 @@ Discarded input sections
  .text.__NVIC_GetPriority
                 0x0000000000000000       0x7c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .text.__NVIC_SystemReset
-                0x0000000000000000       0x20 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
- .text.HAL_NVIC_EnableIRQ
                 0x0000000000000000       0x20 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .text.HAL_NVIC_DisableIRQ
                 0x0000000000000000       0x20 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
@@ -2409,8 +2528,6 @@ Discarded input sections
                 0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_MspDeInit
                 0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .text.HAL_UART_Transmit
-                0x0000000000000000      0x13e CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_Receive
                 0x0000000000000000      0x1cc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_Transmit_IT
@@ -2439,17 +2556,11 @@ Discarded input sections
                 0x0000000000000000       0xe8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_AbortReceive_IT
                 0x0000000000000000      0x180 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .text.HAL_UART_IRQHandler
-                0x0000000000000000      0x5b4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .text.HAL_UART_TxCpltCallback
-                0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_TxHalfCpltCallback
                 0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_RxCpltCallback
                 0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_RxHalfCpltCallback
-                0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .text.HAL_UART_ErrorCallback
                 0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_AbortCpltCallback
                 0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
@@ -2457,8 +2568,6 @@ Discarded input sections
                 0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_AbortReceiveCpltCallback
                 0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .text.HAL_UARTEx_RxEventCallback
-                0x0000000000000000       0x16 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_ReceiverTimeout_Config
                 0x0000000000000000       0x34 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.HAL_UART_EnableReceiverTimeout
@@ -2497,8 +2606,6 @@ Discarded input sections
                 0x0000000000000000       0x42 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.UART_DMAError
                 0x0000000000000000       0x84 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .text.UART_DMAAbortOnError
-                0x0000000000000000       0x2e CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.UART_DMATxAbortCallback
                 0x0000000000000000       0x6e CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.UART_DMARxAbortCallback
@@ -2511,8 +2618,6 @@ Discarded input sections
                 0x0000000000000000       0xaa CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.UART_TxISR_16BIT
                 0x0000000000000000       0xb4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .text.UART_EndTransmit_IT
-                0x0000000000000000       0x52 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.UART_RxISR_8BIT
                 0x0000000000000000      0x1b8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .text.UART_RxISR_16BIT
@@ -2602,8 +2707,6 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .text.HAL_RS485Ex_Init
                 0x0000000000000000       0xe0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .text.HAL_UARTEx_WakeupCallback
-                0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .text.HAL_UARTEx_EnableClockStopMode
                 0x0000000000000000       0x60 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .text.HAL_UARTEx_DisableClockStopMode
@@ -2626,12 +2729,6 @@ Discarded input sections
                 0x0000000000000000       0x14 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .text.UARTEx_Wakeup_AddressConfig
                 0x0000000000000000       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .debug_info    0x0000000000000000      0xe2d CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .debug_abbrev  0x0000000000000000      0x26a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .debug_aranges
-                0x0000000000000000       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .debug_ranges  0x0000000000000000       0x70 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .debug_macro   0x0000000000000000      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .debug_macro   0x0000000000000000      0xa48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .debug_macro   0x0000000000000000      0x125 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .debug_macro   0x0000000000000000       0x2e CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
@@ -2672,12 +2769,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x5cf CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .debug_macro   0x0000000000000000       0x44 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .debug_macro   0x0000000000000000      0x146 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .debug_line    0x0000000000000000      0xa73 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .debug_str     0x0000000000000000    0x6c992 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .comment       0x0000000000000000       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .debug_frame   0x0000000000000000      0x1b8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
- .ARM.attributes
-                0x0000000000000000       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
@@ -3163,17 +3254,7 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .bss.__sbrk_heap_end
-                0x0000000000000000        0x4 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .text._sbrk    0x0000000000000000       0x6c CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_info    0x0000000000000000      0x995 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x0000000000000000      0x1d1 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_aranges
-                0x0000000000000000       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_ranges  0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x0000000000000000       0xee CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .debug_macro   0x0000000000000000      0xa48 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x0000000000000000       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .debug_macro   0x0000000000000000       0x22 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .debug_macro   0x0000000000000000       0x58 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .debug_macro   0x0000000000000000       0x18 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
@@ -3187,16 +3268,9 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x43 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .debug_macro   0x0000000000000000       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .debug_macro   0x0000000000000000      0x18e CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x0000000000000000      0x23b CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .debug_macro   0x0000000000000000       0xef CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .debug_macro   0x0000000000000000       0x6a CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .debug_macro   0x0000000000000000      0x1df CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0000000000000000      0x2a5 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_str     0x0000000000000000     0x5b40 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .comment       0x0000000000000000       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .debug_frame   0x0000000000000000       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
- .ARM.attributes
-                0x0000000000000000       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/syscalls.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/syscalls.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/WaterLevelNode.dir/Core/Src/syscalls.c.obj
@@ -3326,6 +3400,12 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
  .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
  .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000      0x1d4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000000000       0x20 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
  .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
  .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_aeabi_uldivmod.o)
@@ -3339,13 +3419,41 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzdi2.o)
  .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
  .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-calloc.o)
+ .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-calloc.o)
+ .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-calloc.o)
  .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
  .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
  .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
- .text.__errno  0x0000000000000000        0xc /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000000000       0x20 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-callocr.o)
+ .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-callocr.o)
+ .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-callocr.o)
+ .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xcc /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x0000000000000000       0x94 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000000000       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x0000000000000000       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+                0x0000000000000000       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
  .text          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
  .data          0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
  .bss           0x0000000000000000        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
@@ -3372,6 +3480,7 @@ START GROUP
 LOAD /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
 LOAD /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libm.a
 END GROUP
+LOAD CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
 LOAD CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
 LOAD CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
 LOAD CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
@@ -3423,7 +3532,7 @@ LOAD /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-
                 0x0000000008000000                g_pfnVectors
                 0x00000000080000c0                . = ALIGN (0x4)
 
-.text           0x00000000080000c0     0x3390
+.text           0x00000000080000c0     0x4078
                 0x00000000080000c0                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080000c0       0x48 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
@@ -3451,335 +3560,426 @@ LOAD /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-
                 0x000000000800048c                __libc_init_array
  .text.memset   0x00000000080004d4       0x10 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
                 0x00000000080004d4                memset
- .text.main     0x00000000080004e4       0x22 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
-                0x00000000080004e4                main
- *fill*         0x0000000008000506        0x2 
+ .text.AT24Cxx_init
+                0x00000000080004e4       0x98 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+                0x00000000080004e4                AT24Cxx_init
+ .text.main     0x000000000800057c       0xf0 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+                0x000000000800057c                main
  .text.SystemClock_Config
-                0x0000000008000508       0xf0 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
-                0x0000000008000508                SystemClock_Config
+                0x000000000800066c       0xf0 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+                0x000000000800066c                SystemClock_Config
  .text.Error_Handler
-                0x00000000080005f8        0x8 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
-                0x00000000080005f8                Error_Handler
+                0x000000000800075c        0x8 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+                0x000000000800075c                Error_Handler
  .text.MX_GPIO_Init
-                0x0000000008000600      0x110 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
-                0x0000000008000600                MX_GPIO_Init
+                0x0000000008000764      0x110 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+                0x0000000008000764                MX_GPIO_Init
  .text.MX_I2C1_Init
-                0x0000000008000710       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
-                0x0000000008000710                MX_I2C1_Init
+                0x0000000008000874       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+                0x0000000008000874                MX_I2C1_Init
  .text.HAL_I2C_MspInit
-                0x0000000008000790       0x88 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
-                0x0000000008000790                HAL_I2C_MspInit
+                0x00000000080008f4       0x88 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+                0x00000000080008f4                HAL_I2C_MspInit
  .text.MX_LPUART1_UART_Init
-                0x0000000008000818       0x60 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
-                0x0000000008000818                MX_LPUART1_UART_Init
+                0x000000000800097c       0x5c CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+                0x000000000800097c                MX_LPUART1_UART_Init
  .text.MX_USART1_UART_Init
-                0x0000000008000878       0x60 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
-                0x0000000008000878                MX_USART1_UART_Init
+                0x00000000080009d8       0x60 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+                0x00000000080009d8                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x00000000080008d8       0xf0 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
-                0x00000000080008d8                HAL_UART_MspInit
+                0x0000000008000a38      0x110 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+                0x0000000008000a38                HAL_UART_MspInit
  .text.MX_TIM2_Init
-                0x00000000080009c8       0xf8 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
-                0x00000000080009c8                MX_TIM2_Init
+                0x0000000008000b48       0xf8 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+                0x0000000008000b48                MX_TIM2_Init
  .text.HAL_TIM_Base_MspInit
-                0x0000000008000ac0       0x84 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
-                0x0000000008000ac0                HAL_TIM_Base_MspInit
+                0x0000000008000c40       0x84 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+                0x0000000008000c40                HAL_TIM_Base_MspInit
  .text.NMI_Handler
-                0x0000000008000b44        0x6 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
-                0x0000000008000b44                NMI_Handler
+                0x0000000008000cc4        0x6 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                0x0000000008000cc4                NMI_Handler
  .text.HardFault_Handler
-                0x0000000008000b4a        0x6 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
-                0x0000000008000b4a                HardFault_Handler
+                0x0000000008000cca        0x6 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                0x0000000008000cca                HardFault_Handler
  .text.SVC_Handler
-                0x0000000008000b50        0xa CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
-                0x0000000008000b50                SVC_Handler
+                0x0000000008000cd0        0xa CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                0x0000000008000cd0                SVC_Handler
  .text.PendSV_Handler
-                0x0000000008000b5a        0xa CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
-                0x0000000008000b5a                PendSV_Handler
+                0x0000000008000cda        0xa CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                0x0000000008000cda                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008000b64        0xe CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
-                0x0000000008000b64                SysTick_Handler
- *fill*         0x0000000008000b72        0x2 
+                0x0000000008000ce4        0xe CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                0x0000000008000ce4                SysTick_Handler
+ *fill*         0x0000000008000cf2        0x2 
+ .text.USART1_IRQHandler
+                0x0000000008000cf4       0x18 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                0x0000000008000cf4                USART1_IRQHandler
+ .text.LPUART1_IRQHandler
+                0x0000000008000d0c       0x18 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                0x0000000008000d0c                LPUART1_IRQHandler
  .text.HAL_MspInit
-                0x0000000008000b74       0x28 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
-                0x0000000008000b74                HAL_MspInit
+                0x0000000008000d24       0x28 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+                0x0000000008000d24                HAL_MspInit
  .text.HAL_I2C_Init
-                0x0000000008000b9c      0x12c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
-                0x0000000008000b9c                HAL_I2C_Init
+                0x0000000008000d4c      0x12c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+                0x0000000008000d4c                HAL_I2C_Init
  .text.HAL_I2CEx_ConfigAnalogFilter
-                0x0000000008000cc8       0x98 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
-                0x0000000008000cc8                HAL_I2CEx_ConfigAnalogFilter
+                0x0000000008000e78       0x98 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+                0x0000000008000e78                HAL_I2CEx_ConfigAnalogFilter
  .text.HAL_I2CEx_ConfigDigitalFilter
-                0x0000000008000d60       0x98 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
-                0x0000000008000d60                HAL_I2CEx_ConfigDigitalFilter
+                0x0000000008000f10       0x98 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+                0x0000000008000f10                HAL_I2CEx_ConfigDigitalFilter
  .text.HAL_Init
-                0x0000000008000df8       0x40 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
-                0x0000000008000df8                HAL_Init
+                0x0000000008000fa8       0x40 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x0000000008000fa8                HAL_Init
  .text.HAL_InitTick
-                0x0000000008000e38       0x68 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
-                0x0000000008000e38                HAL_InitTick
+                0x0000000008000fe8       0x68 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x0000000008000fe8                HAL_InitTick
  .text.HAL_IncTick
-                0x0000000008000ea0       0x24 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
-                0x0000000008000ea0                HAL_IncTick
+                0x0000000008001050       0x24 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x0000000008001050                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008000ec4       0x14 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
-                0x0000000008000ec4                HAL_GetTick
+                0x0000000008001074       0x14 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x0000000008001074                HAL_GetTick
+ .text.HAL_Delay
+                0x0000000008001088       0x44 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x0000000008001088                HAL_Delay
  .text.HAL_RCC_OscConfig
-                0x0000000008000ed8      0x6e4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
-                0x0000000008000ed8                HAL_RCC_OscConfig
+                0x00000000080010cc      0x6e4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+                0x00000000080010cc                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x00000000080015bc      0x290 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
-                0x00000000080015bc                HAL_RCC_ClockConfig
+                0x00000000080017b0      0x290 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+                0x00000000080017b0                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x000000000800184c      0x144 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
-                0x000000000800184c                HAL_RCC_GetSysClockFreq
+                0x0000000008001a40      0x144 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+                0x0000000008001a40                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x0000000008001990       0x14 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
-                0x0000000008001990                HAL_RCC_GetHCLKFreq
+                0x0000000008001b84       0x14 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+                0x0000000008001b84                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x00000000080019a4       0x2c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
-                0x00000000080019a4                HAL_RCC_GetPCLK1Freq
+                0x0000000008001b98       0x2c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+                0x0000000008001b98                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x00000000080019d0       0x2c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
-                0x00000000080019d0                HAL_RCC_GetPCLK2Freq
+                0x0000000008001bc4       0x2c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+                0x0000000008001bc4                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x00000000080019fc      0x278 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
-                0x00000000080019fc                HAL_RCCEx_PeriphCLKConfig
+                0x0000000008001bf0      0x278 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+                0x0000000008001bf0                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_GPIO_Init
-                0x0000000008001c74      0x2ec CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
-                0x0000000008001c74                HAL_GPIO_Init
+                0x0000000008001e68      0x2ec CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+                0x0000000008001e68                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0000000008001f60       0x3a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
-                0x0000000008001f60                HAL_GPIO_WritePin
- *fill*         0x0000000008001f9a        0x2 
+                0x0000000008002154       0x3a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+                0x0000000008002154                HAL_GPIO_WritePin
+ .text.HAL_GPIO_TogglePin
+                0x000000000800218e       0x36 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+                0x000000000800218e                HAL_GPIO_TogglePin
+ .text.HAL_DMA_Abort
+                0x00000000080021c4       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+                0x00000000080021c4                HAL_DMA_Abort
+ .text.HAL_DMA_Abort_IT
+                0x0000000008002244       0x90 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+                0x0000000008002244                HAL_DMA_Abort_IT
+ .text.__NVIC_EnableIRQ
+                0x00000000080022d4       0x34 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x0000000008001f9c       0xdc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+                0x0000000008002308       0xdc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x0000000008002078       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+                0x00000000080023e4       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriority
-                0x00000000080020c0       0x2a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
-                0x00000000080020c0                HAL_NVIC_SetPriority
+                0x000000000800242c       0x2a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+                0x000000000800242c                HAL_NVIC_SetPriority
+ .text.HAL_NVIC_EnableIRQ
+                0x0000000008002456       0x20 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+                0x0000000008002456                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x00000000080020ea       0x1a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
-                0x00000000080020ea                HAL_SYSTICK_Config
+                0x0000000008002476       0x1a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+                0x0000000008002476                HAL_SYSTICK_Config
  .text.HAL_UART_Init
-                0x0000000008002104       0xa8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
-                0x0000000008002104                HAL_UART_Init
+                0x0000000008002490       0xa8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008002490                HAL_UART_Init
+ .text.HAL_UART_Transmit
+                0x0000000008002538      0x13e CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008002538                HAL_UART_Transmit
+ *fill*         0x0000000008002676        0x2 
+ .text.HAL_UART_IRQHandler
+                0x0000000008002678      0x5b4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008002678                HAL_UART_IRQHandler
+ .text.HAL_UART_TxCpltCallback
+                0x0000000008002c2c       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008002c2c                HAL_UART_TxCpltCallback
+ .text.HAL_UART_ErrorCallback
+                0x0000000008002c3c       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008002c3c                HAL_UART_ErrorCallback
+ .text.HAL_UARTEx_RxEventCallback
+                0x0000000008002c4c       0x16 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008002c4c                HAL_UARTEx_RxEventCallback
+ *fill*         0x0000000008002c62        0x2 
  .text.UART_SetConfig
-                0x00000000080021ac      0x538 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
-                0x00000000080021ac                UART_SetConfig
+                0x0000000008002c64      0x538 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008002c64                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x00000000080026e4      0x168 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
-                0x00000000080026e4                UART_AdvFeatureConfig
+                0x000000000800319c      0x168 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x000000000800319c                UART_AdvFeatureConfig
  .text.UART_CheckIdleState
-                0x000000000800284c      0x148 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
-                0x000000000800284c                UART_CheckIdleState
+                0x0000000008003304      0x148 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008003304                UART_CheckIdleState
  .text.UART_WaitOnFlagUntilTimeout
-                0x0000000008002994       0xd2 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
-                0x0000000008002994                UART_WaitOnFlagUntilTimeout
- *fill*         0x0000000008002a66        0x2 
+                0x000000000800344c       0xd2 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x000000000800344c                UART_WaitOnFlagUntilTimeout
+ *fill*         0x000000000800351e        0x2 
  .text.UART_EndRxTransfer
-                0x0000000008002a68       0xbc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008003520       0xbc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .text.UART_DMAAbortOnError
+                0x00000000080035dc       0x2e CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .text.UART_EndTransmit_IT
+                0x000000000800360a       0x52 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .text.HAL_UARTEx_WakeupCallback
+                0x000000000800365c       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
+                0x000000000800365c                HAL_UARTEx_WakeupCallback
  .text.HAL_TIM_Base_Init
-                0x0000000008002b24       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
-                0x0000000008002b24                HAL_TIM_Base_Init
+                0x000000000800366c       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x000000000800366c                HAL_TIM_Base_Init
  .text.HAL_TIM_IC_Init
-                0x0000000008002ba4       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
-                0x0000000008002ba4                HAL_TIM_IC_Init
+                0x00000000080036ec       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x00000000080036ec                HAL_TIM_IC_Init
  .text.HAL_TIM_IC_MspInit
-                0x0000000008002c24       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
-                0x0000000008002c24                HAL_TIM_IC_MspInit
+                0x000000000800376c       0x10 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x000000000800376c                HAL_TIM_IC_MspInit
  .text.HAL_TIM_IC_ConfigChannel
-                0x0000000008002c34      0x148 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
-                0x0000000008002c34                HAL_TIM_IC_ConfigChannel
+                0x000000000800377c      0x148 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x000000000800377c                HAL_TIM_IC_ConfigChannel
  .text.HAL_TIM_ConfigClockSource
-                0x0000000008002d7c      0x194 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
-                0x0000000008002d7c                HAL_TIM_ConfigClockSource
+                0x00000000080038c4      0x194 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x00000000080038c4                HAL_TIM_ConfigClockSource
  .text.TIM_Base_SetConfig
-                0x0000000008002f10       0xa8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x0000000008003a58       0xa8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .text.TIM_TI1_SetConfig
-                0x0000000008002fb8       0xac CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x0000000008003b00       0xac CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .text.TIM_TI1_ConfigInputStage
-                0x0000000008003064       0x5c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x0000000008003bac       0x5c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .text.TIM_TI2_SetConfig
-                0x00000000080030c0       0x84 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x0000000008003c08       0x84 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .text.TIM_TI2_ConfigInputStage
-                0x0000000008003144       0x64 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x0000000008003c8c       0x64 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .text.TIM_TI3_SetConfig
-                0x00000000080031a8       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x0000000008003cf0       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .text.TIM_TI4_SetConfig
-                0x0000000008003228       0x8c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x0000000008003d70       0x8c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x00000000080032b4       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
- *fill*         0x00000000080032e6        0x2 
+                0x0000000008003dfc       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+ *fill*         0x0000000008003e2e        0x2 
  .text.TIM_ETR_SetConfig
-                0x00000000080032e8       0x40 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x0000000008003e30       0x40 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x0000000008003328       0xb0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
-                0x0000000008003328                HAL_TIMEx_MasterConfigSynchronization
+                0x0000000008003e70       0xb0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+                0x0000000008003e70                HAL_TIMEx_MasterConfigSynchronization
  .text.SystemInit
-                0x00000000080033d8        0xa CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
-                0x00000000080033d8                SystemInit
- *fill*         0x00000000080033e2        0x2 
+                0x0000000008003f20        0xa CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+                0x0000000008003f20                SystemInit
+ *fill*         0x0000000008003f2a        0x2 
+ .text._sbrk    0x0000000008003f2c       0x6c CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+                0x0000000008003f2c                _sbrk
  .text.Reset_Handler
-                0x00000000080033e4       0x50 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
-                0x00000000080033e4                Reset_Handler
+                0x0000000008003f98       0x50 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
+                0x0000000008003f98                Reset_Handler
  .text.Default_Handler
-                0x0000000008003434        0x2 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
-                0x0000000008003434                ADC1_COMP_IRQHandler
-                0x0000000008003434                TIM6_IRQHandler
-                0x0000000008003434                PVD_IRQHandler
-                0x0000000008003434                I2C1_IRQHandler
-                0x0000000008003434                SPI1_IRQHandler
-                0x0000000008003434                EXTI2_3_IRQHandler
-                0x0000000008003434                I2C2_IRQHandler
-                0x0000000008003434                RTC_IRQHandler
-                0x0000000008003434                DMA1_Channel4_5_6_7_IRQHandler
-                0x0000000008003434                EXTI4_15_IRQHandler
-                0x0000000008003434                RCC_IRQHandler
-                0x0000000008003434                DMA1_Channel1_IRQHandler
-                0x0000000008003434                Default_Handler
-                0x0000000008003434                TIM22_IRQHandler
-                0x0000000008003434                EXTI0_1_IRQHandler
-                0x0000000008003434                SPI2_IRQHandler
-                0x0000000008003434                TIM21_IRQHandler
-                0x0000000008003434                WWDG_IRQHandler
-                0x0000000008003434                LPUART1_IRQHandler
-                0x0000000008003434                TIM2_IRQHandler
-                0x0000000008003434                DMA1_Channel2_3_IRQHandler
-                0x0000000008003434                USART2_IRQHandler
-                0x0000000008003434                FLASH_IRQHandler
-                0x0000000008003434                USART1_IRQHandler
-                0x0000000008003434                LPTIM1_IRQHandler
+                0x0000000008003fe8        0x2 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
+                0x0000000008003fe8                ADC1_COMP_IRQHandler
+                0x0000000008003fe8                TIM6_IRQHandler
+                0x0000000008003fe8                PVD_IRQHandler
+                0x0000000008003fe8                I2C1_IRQHandler
+                0x0000000008003fe8                SPI1_IRQHandler
+                0x0000000008003fe8                EXTI2_3_IRQHandler
+                0x0000000008003fe8                I2C2_IRQHandler
+                0x0000000008003fe8                RTC_IRQHandler
+                0x0000000008003fe8                DMA1_Channel4_5_6_7_IRQHandler
+                0x0000000008003fe8                EXTI4_15_IRQHandler
+                0x0000000008003fe8                RCC_IRQHandler
+                0x0000000008003fe8                DMA1_Channel1_IRQHandler
+                0x0000000008003fe8                Default_Handler
+                0x0000000008003fe8                TIM22_IRQHandler
+                0x0000000008003fe8                EXTI0_1_IRQHandler
+                0x0000000008003fe8                SPI2_IRQHandler
+                0x0000000008003fe8                TIM21_IRQHandler
+                0x0000000008003fe8                WWDG_IRQHandler
+                0x0000000008003fe8                TIM2_IRQHandler
+                0x0000000008003fe8                DMA1_Channel2_3_IRQHandler
+                0x0000000008003fe8                USART2_IRQHandler
+                0x0000000008003fe8                FLASH_IRQHandler
+                0x0000000008003fe8                LPTIM1_IRQHandler
+ *fill*         0x0000000008003fea        0x2 
+ .text.calloc   0x0000000008003fec       0x14 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-calloc.o)
+                0x0000000008003fec                calloc
+ .text.__errno  0x0000000008004000        0xc /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+                0x0000000008004000                __errno
+ .text.memcpy   0x000000000800400c       0x12 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                0x000000000800400c                memcpy
+ .text._calloc_r
+                0x000000000800401e       0x1c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-callocr.o)
+                0x000000000800401e                _calloc_r
+ *fill*         0x000000000800403a        0x2 
+ .text._malloc_r
+                0x000000000800403c       0xbc /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x000000000800403c                _malloc_r
+ .text._sbrk_r  0x00000000080040f8       0x24 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+                0x00000000080040f8                _sbrk_r
+ .text.__malloc_lock
+                0x000000000800411c        0x2 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                0x000000000800411c                __malloc_lock
+ .text.__malloc_unlock
+                0x000000000800411e        0x2 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                0x000000000800411e                __malloc_unlock
  *(.glue_7)
- .glue_7        0x0000000008003436        0x0 linker stubs
+ .glue_7        0x0000000008004120        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008003436        0x0 linker stubs
+ .glue_7t       0x0000000008004120        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0000000008003436        0x2 
- .eh_frame      0x0000000008003438        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .eh_frame      0x0000000008004120        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
  *(.init)
- .init          0x0000000008003438        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
-                0x0000000008003438                _init
- .init          0x000000000800343c        0x8 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+ .init          0x0000000008004120        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+                0x0000000008004120                _init
+ .init          0x0000000008004124        0x8 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
  *(.fini)
- .fini          0x0000000008003444        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
-                0x0000000008003444                _fini
- .fini          0x0000000008003448        0x8 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
-                0x0000000008003450                . = ALIGN (0x4)
-                0x0000000008003450                _etext = .
+ .fini          0x000000000800412c        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+                0x000000000800412c                _fini
+ .fini          0x0000000008004130        0x8 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+                0x0000000008004138                . = ALIGN (0x4)
+                0x0000000008004138                _etext = .
 
-.vfp11_veneer   0x0000000008003450        0x0
- .vfp11_veneer  0x0000000008003450        0x0 linker stubs
+.vfp11_veneer   0x0000000008004138        0x0
+ .vfp11_veneer  0x0000000008004138        0x0 linker stubs
 
-.v4_bx          0x0000000008003450        0x0
- .v4_bx         0x0000000008003450        0x0 linker stubs
+.v4_bx          0x0000000008004138        0x0
+ .v4_bx         0x0000000008004138        0x0 linker stubs
 
-.iplt           0x0000000008003450        0x0
- .iplt          0x0000000008003450        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+.iplt           0x0000000008004138        0x0
+ .iplt          0x0000000008004138        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
 
-.rodata         0x0000000008003450       0x6c
-                0x0000000008003450                . = ALIGN (0x4)
+.rodata         0x0000000008004138       0xb8
+                0x0000000008004138                . = ALIGN (0x4)
  *(.rodata)
+ .rodata        0x0000000008004138       0x42 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  *(.rodata*)
+ *fill*         0x000000000800417a        0x2 
+ .rodata.testString
+                0x000000000800417c        0x6 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+                0x000000000800417c                testString
+ *fill*         0x0000000008004182        0x2 
  .rodata.UART_SetConfig
-                0x0000000008003450       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000008004184       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .rodata.AHBPrescTable
-                0x0000000008003498       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
-                0x0000000008003498                AHBPrescTable
+                0x00000000080041cc       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+                0x00000000080041cc                AHBPrescTable
  .rodata.APBPrescTable
-                0x00000000080034a8        0x8 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
-                0x00000000080034a8                APBPrescTable
+                0x00000000080041dc        0x8 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+                0x00000000080041dc                APBPrescTable
  .rodata.PLLMulTable
-                0x00000000080034b0        0x9 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
-                0x00000000080034b0                PLLMulTable
-                0x00000000080034bc                . = ALIGN (0x4)
- *fill*         0x00000000080034b9        0x3 
+                0x00000000080041e4        0x9 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+                0x00000000080041e4                PLLMulTable
+                0x00000000080041f0                . = ALIGN (0x4)
+ *fill*         0x00000000080041ed        0x3 
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00000000080034bc        0x8
-                0x00000000080034bc                __exidx_start = .
+.ARM            0x00000000080041f0        0x8
+                0x00000000080041f0                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x00000000080034bc        0x8 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
-                0x00000000080034c4                __exidx_end = .
+ .ARM.exidx     0x00000000080041f0        0x8 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
+                0x00000000080041f8                __exidx_end = .
 
-.rel.dyn        0x00000000080034c4        0x0
- .rel.iplt      0x00000000080034c4        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+.rel.dyn        0x00000000080041f8        0x0
+ .rel.iplt      0x00000000080041f8        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
 
-.preinit_array  0x00000000080034c4        0x0
-                0x00000000080034c4                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00000000080041f8        0x0
+                0x00000000080041f8                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000000080034c4                PROVIDE (__preinit_array_end = .)
+                0x00000000080041f8                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x00000000080034c4        0x4
-                0x00000000080034c4                PROVIDE (__init_array_start = .)
+.init_array     0x00000000080041f8        0x4
+                0x00000000080041f8                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080034c4        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
-                0x00000000080034c8                PROVIDE (__init_array_end = .)
+ .init_array    0x00000000080041f8        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                0x00000000080041fc                PROVIDE (__init_array_end = .)
 
-.fini_array     0x00000000080034c8        0x4
+.fini_array     0x00000000080041fc        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080034c8        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .fini_array    0x00000000080041fc        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x00000000080034cc                _sidata = LOADADDR (.data)
+                0x0000000008004200                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0xc load address 0x00000000080034cc
+.data           0x0000000020000000       0x70 load address 0x0000000008004200
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
  *(.data*)
+ .data._impure_ptr
+                0x0000000020000000        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+                0x0000000020000000                _impure_ptr
+ .data.impure_data
+                0x0000000020000004       0x60 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .data.uwTickPrio
-                0x0000000020000000        0x4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
-                0x0000000020000000                uwTickPrio
+                0x0000000020000064        0x4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x0000000020000064                uwTickPrio
  .data.uwTickFreq
-                0x0000000020000004        0x1 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
-                0x0000000020000004                uwTickFreq
- *fill*         0x0000000020000005        0x3 
+                0x0000000020000068        0x1 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x0000000020000068                uwTickFreq
+ *fill*         0x0000000020000069        0x3 
  .data.SystemCoreClock
-                0x0000000020000008        0x4 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
-                0x0000000020000008                SystemCoreClock
-                0x000000002000000c                . = ALIGN (0x4)
-                0x000000002000000c                _edata = .
+                0x000000002000006c        0x4 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+                0x000000002000006c                SystemCoreClock
+                0x0000000020000070                . = ALIGN (0x4)
+                0x0000000020000070                _edata = .
 
-.igot.plt       0x000000002000000c        0x0 load address 0x00000000080034d8
- .igot.plt      0x000000002000000c        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
-                0x000000002000000c                . = ALIGN (0x4)
+.igot.plt       0x0000000020000070        0x0 load address 0x0000000008004270
+ .igot.plt      0x0000000020000070        0x0 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                0x0000000020000070                . = ALIGN (0x4)
 
-.bss            0x000000002000000c      0x1c4 load address 0x00000000080034d8
-                0x000000002000000c                _sbss = .
-                0x000000002000000c                __bss_start__ = _sbss
+.bss            0x0000000020000070      0x1d4 load address 0x0000000008004270
+                0x0000000020000070                _sbss = .
+                0x0000000020000070                __bss_start__ = _sbss
  *(.bss)
- .bss           0x000000002000000c       0x1c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .bss           0x0000000020000070       0x1c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
  *(.bss*)
+ .bss.__sbrk_heap_end
+                0x000000002000008c        0x4 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+ .bss.__malloc_free_list
+                0x0000000020000090        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000090                __malloc_free_list
+ .bss.__malloc_sbrk_start
+                0x0000000020000094        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000094                __malloc_sbrk_start
  *(COMMON)
- COMMON         0x0000000020000028       0x54 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
-                0x0000000020000028                hi2c1
- COMMON         0x000000002000007c      0x110 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
-                0x000000002000007c                hlpuart1
-                0x0000000020000104                huart1
- COMMON         0x000000002000018c       0x40 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
-                0x000000002000018c                htim2
- COMMON         0x00000000200001cc        0x4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
-                0x00000000200001cc                uwTick
-                0x00000000200001d0                . = ALIGN (0x4)
-                0x00000000200001d0                _ebss = .
-                0x00000000200001d0                __bss_end__ = _ebss
+ COMMON         0x0000000020000098       0x54 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+                0x0000000020000098                hi2c1
+ COMMON         0x00000000200000ec      0x110 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+                0x00000000200000ec                hlpuart1
+                0x0000000020000174                huart1
+ COMMON         0x00000000200001fc       0x40 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+                0x00000000200001fc                htim2
+ COMMON         0x000000002000023c        0x4 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x000000002000023c                uwTick
+ COMMON         0x0000000020000240        0x4 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
+                0x0000000020000240                errno
+                0x0000000020000244                . = ALIGN (0x4)
+                0x0000000020000244                _ebss = .
+                0x0000000020000244                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200001d0      0x600 load address 0x00000000080034d8
-                0x00000000200001d0                . = ALIGN (0x8)
+                0x0000000020000244      0x604 load address 0x0000000008004270
+                0x0000000020000248                . = ALIGN (0x8)
+ *fill*         0x0000000020000244        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x00000000200001d0                PROVIDE (_end = .)
-                0x00000000200003d0                . = (. + _Min_Heap_Size)
- *fill*         0x00000000200001d0      0x200 
-                0x00000000200007d0                . = (. + _Min_Stack_Size)
- *fill*         0x00000000200003d0      0x400 
-                0x00000000200007d0                . = ALIGN (0x8)
+                0x0000000020000248                PROVIDE (_end = .)
+                0x0000000020000448                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000248      0x200 
+                0x0000000020000848                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000448      0x400 
+                0x0000000020000848                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -3794,318 +3994,430 @@ LOAD /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-
  .ARM.attributes
                 0x000000000000001e       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
  .ARM.attributes
-                0x000000000000004a       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+                0x000000000000004a       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000000000000076       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+                0x0000000000000076       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x00000000000000a2       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+                0x00000000000000a2       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000000000d4       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+                0x00000000000000ce       0x32 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
  .ARM.attributes
-                0x0000000000000106       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+                0x0000000000000100       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  .ARM.attributes
-                0x0000000000000138       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+                0x0000000000000132       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
  .ARM.attributes
-                0x000000000000016a       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+                0x0000000000000164       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
  .ARM.attributes
-                0x000000000000019c       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                0x0000000000000196       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
  .ARM.attributes
-                0x00000000000001ce       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+                0x00000000000001c8       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
  .ARM.attributes
-                0x0000000000000200       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+                0x00000000000001fa       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
  .ARM.attributes
-                0x0000000000000232       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+                0x000000000000022c       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
  .ARM.attributes
-                0x0000000000000264       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x000000000000025e       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
  .ARM.attributes
-                0x0000000000000296       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+                0x0000000000000290       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
  .ARM.attributes
-                0x00000000000002c8       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+                0x00000000000002c2       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
  .ARM.attributes
-                0x00000000000002fa       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+                0x00000000000002f4       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
  .ARM.attributes
-                0x000000000000032c       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+                0x0000000000000326       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
  .ARM.attributes
-                0x000000000000035e       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x0000000000000358       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
  .ARM.attributes
-                0x0000000000000390       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x000000000000038a       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .ARM.attributes
-                0x00000000000003c2       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+                0x00000000000003bc       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .ARM.attributes
-                0x00000000000003f4       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+                0x00000000000003ee       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .ARM.attributes
-                0x0000000000000426       0x22 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
+                0x0000000000000420       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .ARM.attributes
-                0x0000000000000448       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                0x0000000000000452       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .ARM.attributes
-                0x0000000000000466       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000000000484       0x32 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
  .ARM.attributes
-                0x0000000000000484       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000000004b6       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
  .ARM.attributes
-                0x00000000000004a2       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_muldi3.o)
+                0x00000000000004e8       0x32 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
  .ARM.attributes
-                0x00000000000004ce       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
+                0x000000000000051a       0x22 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
  .ARM.attributes
-                0x00000000000004fa       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzdi2.o)
+                0x000000000000053c       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x0000000000000518       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+                0x000000000000055a       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x0000000000000536       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+                0x0000000000000578       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000596       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x00000000000005c2       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000000000005ee       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzdi2.o)
+ .ARM.attributes
+                0x000000000000060c       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x000000000000062a       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-calloc.o)
+ .ARM.attributes
+                0x0000000000000656       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000000000000682       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000000006ae       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-callocr.o)
+ .ARM.attributes
+                0x00000000000006da       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000000000000706       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000732       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000000000000075e       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x000000000000078a       0x1e /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
 OUTPUT(WaterLevelNode.elf elf32-littlearm)
 
-.debug_frame    0x0000000000000000     0x30fc
+.debug_frame    0x0000000000000000     0x3770
  .debug_frame   0x0000000000000000       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
  .debug_frame   0x000000000000002c       0x20 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x000000000000004c       0x68 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_frame   0x00000000000000b4       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
- .debug_frame   0x00000000000000e4       0x6c CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
- .debug_frame   0x0000000000000150       0x88 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
- .debug_frame   0x00000000000001d8       0x70 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
- .debug_frame   0x0000000000000248       0x9c CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
- .debug_frame   0x00000000000002e4       0x2c CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
- .debug_frame   0x0000000000000310      0xa60 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
- .debug_frame   0x0000000000000d70       0xd0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
- .debug_frame   0x0000000000000e40      0x394 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
- .debug_frame   0x00000000000011d4      0x1a8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
- .debug_frame   0x000000000000137c       0xfc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
- .debug_frame   0x0000000000001478      0x110 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
- .debug_frame   0x0000000000001588      0x2fc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
- .debug_frame   0x0000000000001884      0x854 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .debug_frame   0x00000000000020d8      0xef8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
- .debug_frame   0x0000000000002fd0       0x50 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
- .debug_frame   0x0000000000003020       0x4c CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
- .debug_frame   0x000000000000306c       0x20 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
- .debug_frame   0x000000000000308c       0x34 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_muldi3.o)
- .debug_frame   0x00000000000030c0       0x3c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x000000000000004c      0x134 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_frame   0x0000000000000180       0x6c CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_frame   0x00000000000001ec       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+ .debug_frame   0x000000000000021c       0x6c CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+ .debug_frame   0x0000000000000288       0x88 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+ .debug_frame   0x0000000000000310       0x70 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+ .debug_frame   0x0000000000000380       0xd4 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+ .debug_frame   0x0000000000000454       0x2c CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+ .debug_frame   0x0000000000000480      0xa60 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+ .debug_frame   0x0000000000000ee0       0xd0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+ .debug_frame   0x0000000000000fb0      0x394 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+ .debug_frame   0x0000000000001344      0x1a8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+ .debug_frame   0x00000000000014ec       0xfc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+ .debug_frame   0x00000000000015e8      0x110 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+ .debug_frame   0x00000000000016f8      0x1b0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+ .debug_frame   0x00000000000018a8      0x2fc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+ .debug_frame   0x0000000000001ba4      0x854 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .debug_frame   0x00000000000023f8      0x1b8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
+ .debug_frame   0x00000000000025b0      0xef8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+ .debug_frame   0x00000000000034a8       0x50 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+ .debug_frame   0x00000000000034f8       0x4c CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+ .debug_frame   0x0000000000003544       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+ .debug_frame   0x0000000000003574       0x20 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000003594       0x34 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_muldi3.o)
+ .debug_frame   0x00000000000035c8       0x3c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000003604       0x28 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-calloc.o)
+ .debug_frame   0x000000000000362c       0x20 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x000000000000364c       0x28 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000003674       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-callocr.o)
+ .debug_frame   0x00000000000036a0       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000036cc       0x2c /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000000036f8       0x30 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000003728       0x48 /home/blackhand/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-reent.o)
 
-.debug_info     0x0000000000000000    0x1038b
- .debug_info    0x0000000000000000      0xf92 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_info    0x0000000000000f92      0x4f3 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
- .debug_info    0x0000000000001485      0x9e7 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
- .debug_info    0x0000000000001e6c      0xa66 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
- .debug_info    0x00000000000028d2      0xad0 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
- .debug_info    0x00000000000033a2      0x27f CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
- .debug_info    0x0000000000003621      0x361 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
- .debug_info    0x0000000000003982     0x218a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
- .debug_info    0x0000000000005b0c      0x9e1 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
- .debug_info    0x00000000000064ed      0x914 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
- .debug_info    0x0000000000006e01      0x9e3 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
- .debug_info    0x00000000000077e4      0x5e1 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
- .debug_info    0x0000000000007dc5      0x7d8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
- .debug_info    0x000000000000859d      0x9d8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
- .debug_info    0x0000000000008f75     0x3eef CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .debug_info    0x000000000000ce64     0x2910 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
- .debug_info    0x000000000000f774      0x804 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
- .debug_info    0x000000000000ff78      0x3f1 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
- .debug_info    0x0000000000010369       0x22 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
+.debug_info     0x0000000000000000    0x14049
+ .debug_info    0x0000000000000000     0x1340 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_info    0x0000000000001340     0x12ec CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_info    0x000000000000262c      0x4f3 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+ .debug_info    0x0000000000002b1f      0x9e7 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+ .debug_info    0x0000000000003506      0xb22 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+ .debug_info    0x0000000000004028      0xad0 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+ .debug_info    0x0000000000004af8      0x7c8 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+ .debug_info    0x00000000000052c0      0x361 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+ .debug_info    0x0000000000005621     0x218a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+ .debug_info    0x00000000000077ab      0x9e1 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+ .debug_info    0x000000000000818c      0x914 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+ .debug_info    0x0000000000008aa0      0x9e3 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+ .debug_info    0x0000000000009483      0x5e1 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+ .debug_info    0x0000000000009a64      0x7d8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+ .debug_info    0x000000000000a23c      0x85d CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+ .debug_info    0x000000000000aa99      0x9d8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+ .debug_info    0x000000000000b471     0x3eef CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .debug_info    0x000000000000f360      0xe2d CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
+ .debug_info    0x000000000001018d     0x2910 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+ .debug_info    0x0000000000012a9d      0x804 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+ .debug_info    0x00000000000132a1      0x3f1 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+ .debug_info    0x0000000000013692      0x995 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x0000000000014027       0x22 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
 
-.debug_abbrev   0x0000000000000000     0x1fa5
- .debug_abbrev  0x0000000000000000      0x1bf CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000000000001bf      0x134 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x00000000000002f3      0x199 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
- .debug_abbrev  0x000000000000048c      0x199 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x0000000000000625      0x19f CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
- .debug_abbrev  0x00000000000007c4       0xe2 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
- .debug_abbrev  0x00000000000008a6      0x102 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
- .debug_abbrev  0x00000000000009a8      0x239 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
- .debug_abbrev  0x0000000000000be1      0x1b0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
- .debug_abbrev  0x0000000000000d91      0x235 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
- .debug_abbrev  0x0000000000000fc6      0x21a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
- .debug_abbrev  0x00000000000011e0      0x1c7 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00000000000013a7      0x1c0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
- .debug_abbrev  0x0000000000001567      0x27c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
- .debug_abbrev  0x00000000000017e3      0x28c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .debug_abbrev  0x0000000000001a6f      0x23f CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
- .debug_abbrev  0x0000000000001cae      0x19e CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
- .debug_abbrev  0x0000000000001e4c      0x147 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
- .debug_abbrev  0x0000000000001f93       0x12 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
+.debug_abbrev   0x0000000000000000     0x28a0
+ .debug_abbrev  0x0000000000000000      0x262 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_abbrev  0x0000000000000262      0x1d2 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x0000000000000434      0x134 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x0000000000000568      0x199 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+ .debug_abbrev  0x0000000000000701      0x1a2 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x00000000000008a3      0x19f CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+ .debug_abbrev  0x0000000000000a42      0x158 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+ .debug_abbrev  0x0000000000000b9a      0x102 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+ .debug_abbrev  0x0000000000000c9c      0x239 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+ .debug_abbrev  0x0000000000000ed5      0x1b0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+ .debug_abbrev  0x0000000000001085      0x235 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+ .debug_abbrev  0x00000000000012ba      0x21a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+ .debug_abbrev  0x00000000000014d4      0x1c7 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x000000000000169b      0x1c0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+ .debug_abbrev  0x000000000000185b      0x1cc CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+ .debug_abbrev  0x0000000000001a27      0x27c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+ .debug_abbrev  0x0000000000001ca3      0x28c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .debug_abbrev  0x0000000000001f2f      0x26a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
+ .debug_abbrev  0x0000000000002199      0x23f CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+ .debug_abbrev  0x00000000000023d8      0x19e CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x0000000000002576      0x147 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+ .debug_abbrev  0x00000000000026bd      0x1d1 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x000000000000288e       0x12 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
 
-.debug_aranges  0x0000000000000000      0xdb8
+.debug_aranges  0x0000000000000000      0xf48
  .debug_aranges
-                0x0000000000000000       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+                0x0000000000000000       0x60 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
  .debug_aranges
-                0x0000000000000030       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+                0x0000000000000060       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x0000000000000050       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+                0x0000000000000090       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
  .debug_aranges
-                0x0000000000000080       0x38 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+                0x00000000000000b0       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
  .debug_aranges
-                0x00000000000000b8       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+                0x00000000000000e0       0x38 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
  .debug_aranges
-                0x00000000000000e8       0x40 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                0x0000000000000118       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
  .debug_aranges
-                0x0000000000000128       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+                0x0000000000000148       0x50 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
  .debug_aranges
-                0x0000000000000148      0x2a0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+                0x0000000000000198       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
  .debug_aranges
-                0x00000000000003e8       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+                0x00000000000001b8      0x2a0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
  .debug_aranges
-                0x0000000000000430      0x110 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+                0x0000000000000458       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
  .debug_aranges
-                0x0000000000000540       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+                0x00000000000004a0      0x110 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
  .debug_aranges
-                0x00000000000005c0       0x58 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+                0x00000000000005b0       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
  .debug_aranges
-                0x0000000000000618       0x58 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+                0x0000000000000630       0x58 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
  .debug_aranges
-                0x0000000000000670       0xd8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+                0x0000000000000688       0x58 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
  .debug_aranges
-                0x0000000000000748      0x228 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+                0x00000000000006e0       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .debug_aranges
-                0x0000000000000970      0x3d0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+                0x0000000000000760       0xd8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .debug_aranges
-                0x0000000000000d40       0x28 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+                0x0000000000000838      0x228 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
  .debug_aranges
-                0x0000000000000d68       0x28 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+                0x0000000000000a60       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .debug_aranges
-                0x0000000000000d90       0x28 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
+                0x0000000000000ae0      0x3d0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+ .debug_aranges
+                0x0000000000000eb0       0x28 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+ .debug_aranges
+                0x0000000000000ed8       0x28 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+ .debug_aranges
+                0x0000000000000f00       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+ .debug_aranges
+                0x0000000000000f20       0x28 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
 
-.debug_ranges   0x0000000000000000      0xcc0
- .debug_ranges  0x0000000000000000       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_ranges  0x0000000000000020       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
- .debug_ranges  0x0000000000000030       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
- .debug_ranges  0x0000000000000050       0x28 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
- .debug_ranges  0x0000000000000078       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
- .debug_ranges  0x0000000000000098       0x30 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
- .debug_ranges  0x00000000000000c8       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
- .debug_ranges  0x00000000000000d8      0x290 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
- .debug_ranges  0x0000000000000368       0x38 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
- .debug_ranges  0x00000000000003a0      0x100 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
- .debug_ranges  0x00000000000004a0       0x70 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
- .debug_ranges  0x0000000000000510       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
- .debug_ranges  0x0000000000000558       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
- .debug_ranges  0x00000000000005a0       0xc8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
- .debug_ranges  0x0000000000000668      0x248 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .debug_ranges  0x00000000000008b0      0x3c0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
- .debug_ranges  0x0000000000000c70       0x18 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
- .debug_ranges  0x0000000000000c88       0x18 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
- .debug_ranges  0x0000000000000ca0       0x20 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
+.debug_ranges   0x0000000000000000      0xe10
+ .debug_ranges  0x0000000000000000       0x50 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_ranges  0x0000000000000050       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_ranges  0x0000000000000070       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+ .debug_ranges  0x0000000000000080       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+ .debug_ranges  0x00000000000000a0       0x28 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+ .debug_ranges  0x00000000000000c8       0x20 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+ .debug_ranges  0x00000000000000e8       0x40 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+ .debug_ranges  0x0000000000000128       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+ .debug_ranges  0x0000000000000138      0x290 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+ .debug_ranges  0x00000000000003c8       0x38 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+ .debug_ranges  0x0000000000000400      0x100 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+ .debug_ranges  0x0000000000000500       0x70 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+ .debug_ranges  0x0000000000000570       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+ .debug_ranges  0x00000000000005b8       0x48 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+ .debug_ranges  0x0000000000000600       0x70 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+ .debug_ranges  0x0000000000000670       0xc8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+ .debug_ranges  0x0000000000000738      0x248 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .debug_ranges  0x0000000000000980       0x70 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
+ .debug_ranges  0x00000000000009f0      0x3c0 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+ .debug_ranges  0x0000000000000db0       0x18 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+ .debug_ranges  0x0000000000000dc8       0x18 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+ .debug_ranges  0x0000000000000de0       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+ .debug_ranges  0x0000000000000df0       0x20 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
 
-.debug_macro    0x0000000000000000    0x1246a
- .debug_macro   0x0000000000000000      0x209 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000000209      0xa48 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000000c51      0x125 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000000d76       0x2e CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000000da4       0x28 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000000dcc       0x22 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000000dee       0x8e CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000000e7c       0x51 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000000ecd       0xef CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000000fbc       0x6a CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000001026      0x1df CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000001205       0x1c CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000001221       0x22 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000001243       0xb5 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000000012f8      0x4da CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000000017d2      0x11f CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000000018f1     0x8248 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000009b39       0x66 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000009b9f     0x3590 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000d12f      0x174 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000d2a3       0x5c CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000d2ff      0x8ae CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000dbad      0x625 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000e1d2      0x190 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000e362      0x13f CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000e4a1      0x161 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000e602       0x82 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000e684      0x28e CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000e912      0x1e9 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000eafb      0x128 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000ec23      0x2ab CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000eece      0x22c CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000f0fa       0x5b CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000f155       0xa5 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000f1fa      0x180 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000f37a       0x16 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000f390      0x788 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000fb18       0xc6 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x000000000000fbde      0x5cf CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000000101ad       0x44 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000000101f1      0x146 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x0000000000010337       0xa0 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000000103d7      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
- .debug_macro   0x00000000000105be      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
- .debug_macro   0x00000000000107a5      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
- .debug_macro   0x000000000001098c      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
- .debug_macro   0x0000000000010b73      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
- .debug_macro   0x0000000000010d5a      0x1dd CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
- .debug_macro   0x0000000000010f37      0x29a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
- .debug_macro   0x00000000000111d1      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
- .debug_macro   0x000000000001139f      0x1f2 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
- .debug_macro   0x0000000000011591      0x204 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
- .debug_macro   0x0000000000011795      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
- .debug_macro   0x0000000000011963      0x1d5 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
- .debug_macro   0x0000000000011b38      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
- .debug_macro   0x0000000000011d06      0x1f9 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .debug_macro   0x0000000000011eff      0x1cf CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
- .debug_macro   0x00000000000120ce      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
- .debug_macro   0x000000000001229c      0x1ce CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+.debug_macro    0x0000000000000000    0x13e2e
+ .debug_macro   0x0000000000000000      0x35b CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000035b      0xa48 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000000da3       0x18 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000000dbb       0x22 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000000ddd       0x58 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000000e35       0x94 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000000ec9       0x35 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000000efe       0x34 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000000f32       0x16 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000000f48      0x10e CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001056       0x8d CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000010e3       0x57 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000113a       0x58 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001192       0x1f CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000011b1       0x43 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000011f4       0x20 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001214      0x18e CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000013a2      0x330 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000016d2       0x16 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000016e8       0x29 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001711       0x1c CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000172d       0x35 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001762       0x10 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001772       0x10 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001782       0x6a CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000017ec       0x1c CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001808       0x52 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000185a       0x40 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000189a       0x10 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000018aa       0x40 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000018ea       0xd7 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000019c1       0x1c CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000019dd       0x3d CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001a1a       0x16 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001a30      0x16f CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001b9f      0x125 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001cc4       0x2e CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001cf2       0x28 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001d1a       0xef CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001e09      0x1df CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000001fe8       0x1c CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000002004       0x22 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000002026       0xaf CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000020d5      0x4da CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000025af      0x11f CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x00000000000026ce     0x8248 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000a916       0x66 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000a97c     0x3590 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000df0c       0x56 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000df62      0x8ae CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000e810      0x625 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000ee35      0x190 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000efc5      0x13f CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000f104      0x161 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000f265       0x82 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000f2e7      0x28e CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000f575      0x1e9 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000f75e      0x128 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000f886      0x2ab CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000fb31      0x22c CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000fd5d       0x5b CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000fdb8       0xa5 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000fe5d      0x180 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000ffdd       0x16 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000000fff3      0x788 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x000000000001077b       0xc6 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000010841      0x5cf CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000010e10       0x44 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000010e54      0x146 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000010f9a       0x88 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_macro   0x0000000000011022      0x212 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000011234       0x8e CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000000112c2       0x51 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000011313       0xb5 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000000113c8      0x174 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x000000000001153c       0x5c CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000011598       0xa0 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x0000000000011638       0x8e CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000000116c6      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+ .debug_macro   0x00000000000118ad      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+ .debug_macro   0x0000000000011a94      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+ .debug_macro   0x0000000000011c7b      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+ .debug_macro   0x0000000000011e62      0x1e7 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+ .debug_macro   0x0000000000012049      0x1dd CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+ .debug_macro   0x0000000000012226      0x29a CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+ .debug_macro   0x00000000000124c0      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+ .debug_macro   0x000000000001268e      0x1f2 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+ .debug_macro   0x0000000000012880      0x204 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+ .debug_macro   0x0000000000012a84      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+ .debug_macro   0x0000000000012c52      0x1d5 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+ .debug_macro   0x0000000000012e27      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+ .debug_macro   0x0000000000012ff5      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+ .debug_macro   0x00000000000131c3      0x1f9 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .debug_macro   0x00000000000133bc      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
+ .debug_macro   0x000000000001358a      0x1cf CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+ .debug_macro   0x0000000000013759      0x1ce CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+ .debug_macro   0x0000000000013927      0x1ce CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+ .debug_macro   0x0000000000013af5       0xee CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000013be3       0x10 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000013bf3      0x23b CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
 
-.debug_line     0x0000000000000000     0xcdd3
- .debug_line    0x0000000000000000      0x76a CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
- .debug_line    0x000000000000076a      0x70c CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
- .debug_line    0x0000000000000e76      0x736 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
- .debug_line    0x00000000000015ac      0x769 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
- .debug_line    0x0000000000001d15      0x73e CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
- .debug_line    0x0000000000002453      0x755 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
- .debug_line    0x0000000000002ba8      0x6fc CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
- .debug_line    0x00000000000032a4     0x1cdb CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
- .debug_line    0x0000000000004f7f      0x841 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
- .debug_line    0x00000000000057c0      0x948 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
- .debug_line    0x0000000000006108      0x9b7 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
- .debug_line    0x0000000000006abf      0x8ab CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
- .debug_line    0x000000000000736a      0x87c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
- .debug_line    0x0000000000007be6      0x94d CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
- .debug_line    0x0000000000008533     0x1ce8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
- .debug_line    0x000000000000a21b     0x1c6c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
- .debug_line    0x000000000000be87      0x77d CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
- .debug_line    0x000000000000c604      0x724 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
- .debug_line    0x000000000000cd28       0xab CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
+.debug_line     0x0000000000000000     0xee96
+ .debug_line    0x0000000000000000      0xa11 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+ .debug_line    0x0000000000000a11      0x7d4 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .debug_line    0x00000000000011e5      0x70c CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00000000000018f1      0x736 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+ .debug_line    0x0000000000002027      0x76f CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+ .debug_line    0x0000000000002796      0x73e CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+ .debug_line    0x0000000000002ed4      0x779 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+ .debug_line    0x000000000000364d      0x6fc CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+ .debug_line    0x0000000000003d49     0x1cdb CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+ .debug_line    0x0000000000005a24      0x841 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+ .debug_line    0x0000000000006265      0x948 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+ .debug_line    0x0000000000006bad      0x9b7 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+ .debug_line    0x0000000000007564      0x8ab CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000000000007e0f      0x87c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+ .debug_line    0x000000000000868b      0x906 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+ .debug_line    0x0000000000008f91      0x94d CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+ .debug_line    0x00000000000098de     0x1ce8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .debug_line    0x000000000000b5c6      0xa73 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
+ .debug_line    0x000000000000c039     0x1c6c CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+ .debug_line    0x000000000000dca5      0x77d CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+ .debug_line    0x000000000000e422      0x724 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+ .debug_line    0x000000000000eb46      0x2a5 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x000000000000edeb       0xab CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
 
-.debug_str      0x0000000000000000    0x7083a
- .debug_str     0x0000000000000000    0x6cdfa CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
-                                      0x6d1d6 (size before relaxing)
- .debug_str     0x000000000006cdfa      0x174 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
+.debug_str      0x0000000000000000    0x75510
+ .debug_str     0x0000000000000000    0x706a8 CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
+                                      0x70a92 (size before relaxing)
+ .debug_str     0x00000000000706a8      0xb20 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+                                      0x6d59a (size before relaxing)
+ .debug_str     0x00000000000711c8       0xaa CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
                                       0x6c716 (size before relaxing)
- .debug_str     0x000000000006cf6e       0x7c CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
+ .debug_str     0x0000000000071272       0x7c CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
                                       0x6cbca (size before relaxing)
- .debug_str     0x000000000006cfea       0x9d CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
-                                      0x6cb5d (size before relaxing)
- .debug_str     0x000000000006d087      0x151 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
+ .debug_str     0x00000000000712ee      0x1bc CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
+                                      0x6ccd0 (size before relaxing)
+ .debug_str     0x00000000000714aa      0x151 CMakeFiles/WaterLevelNode.dir/Core/Src/tim.c.obj
                                       0x6ccc2 (size before relaxing)
- .debug_str     0x000000000006d1d8       0xa7 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
-                                      0x6c638 (size before relaxing)
- .debug_str     0x000000000006d27f       0x5d CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
+ .debug_str     0x00000000000715fb       0xb9 CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_it.c.obj
+                                      0x6ca52 (size before relaxing)
+ .debug_str     0x00000000000716b4       0x5d CMakeFiles/WaterLevelNode.dir/Core/Src/stm32l0xx_hal_msp.c.obj
                                       0x6c686 (size before relaxing)
- .debug_str     0x000000000006d2dc      0xdf9 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
+ .debug_str     0x0000000000071711      0xdf9 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj
                                       0x6d69e (size before relaxing)
- .debug_str     0x000000000006e0d5      0x111 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
+ .debug_str     0x000000000007250a      0x111 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj
                                       0x6c95d (size before relaxing)
- .debug_str     0x000000000006e1e6      0x522 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
+ .debug_str     0x000000000007261b      0x403 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
                                       0x6ca26 (size before relaxing)
- .debug_str     0x000000000006e708      0x303 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
+ .debug_str     0x0000000000072a1e      0x303 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
                                       0x6c89d (size before relaxing)
- .debug_str     0x000000000006ea0b      0x188 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
+ .debug_str     0x0000000000072d21      0x188 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
                                       0x6c5e6 (size before relaxing)
- .debug_str     0x000000000006eb93      0x14b CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+ .debug_str     0x0000000000072ea9      0x14b CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
                                       0x6c5b8 (size before relaxing)
- .debug_str     0x000000000006ecde      0x31f CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
+ .debug_str     0x0000000000072ff4      0x298 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
+                                      0x6c749 (size before relaxing)
+ .debug_str     0x000000000007328c      0x31f CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
                                       0x6c83b (size before relaxing)
- .debug_str     0x000000000006effd      0x8fd CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .debug_str     0x00000000000735ab      0x8f6 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
                                       0x6d0de (size before relaxing)
- .debug_str     0x000000000006f8fa      0xda8 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
+ .debug_str     0x0000000000073ea1      0x228 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
+                                      0x6c992 (size before relaxing)
+ .debug_str     0x00000000000740c9      0xd95 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
                                       0x6d687 (size before relaxing)
- .debug_str     0x00000000000706a2       0xae CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
+ .debug_str     0x0000000000074e5e       0xae CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
                                       0x6c85e (size before relaxing)
- .debug_str     0x0000000000070750       0x92 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+ .debug_str     0x0000000000074f0c       0x92 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
                                       0x6c3ce (size before relaxing)
- .debug_str     0x00000000000707e2       0x58 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
+ .debug_str     0x0000000000074f9e      0x51a CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
+                                       0x5b40 (size before relaxing)
+ .debug_str     0x00000000000754b8       0x58 CMakeFiles/WaterLevelNode.dir/startup_stm32l051xx.s.obj
                                          0x98 (size before relaxing)
 
 .comment        0x0000000000000000       0x7f
- .comment       0x0000000000000000       0x7f CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
+ .comment       0x0000000000000000       0x7f CMakeFiles/WaterLevelNode.dir/libs/AT24Cxx/AT24Cxx_stm32_hal.c.obj
                                          0x80 (size before relaxing)
+ .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/main.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/gpio.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/i2c.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/usart.c.obj
@@ -4118,8 +4430,11 @@ OUTPUT(WaterLevelNode.elf elf32-littlearm)
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj
+ .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj
+ .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj
  .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/system_stm32l0xx.c.obj
+ .comment       0x000000000000007f       0x80 CMakeFiles/WaterLevelNode.dir/Core/Src/sysmem.c.obj
