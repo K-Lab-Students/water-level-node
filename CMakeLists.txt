@@ -49,13 +49,16 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/AT24Cxx/AT24Cxx_stm32_hal.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/AT24Cxx/AT24Cxx_stm32_hal.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/main-app.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/sr04m/SR04MDriver.cpp
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/AT24Cxx
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/sr04m
     ${CMAKE_CURRENT_SOURCE_DIR}/Inc
 )
 
