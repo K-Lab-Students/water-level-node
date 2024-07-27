@@ -54,12 +54,14 @@ void SR04MDriver::process()
                 distance_ = distanceSum_ / static_cast<float>(averageTaps_);
                 distanceSum_ = 0.f;
                 averageTapsCnt_ = 0;
+                measureState_ = DONE;
                 currentState_ = IDLE;
             }
         } else if(HAL_GetTick() - lastSamplingFinishTime >= samplingTimeoutMs)
         {
             distanceSum_ = 0.f;
             averageTapsCnt_ = 0;
+            measureState_ = DONE;
             currentState_ = IDLE;
             HAL_TIM_IC_Stop_IT(&htim2, TIM_CHANNEL_1);
         }
@@ -69,6 +71,17 @@ void SR04MDriver::process()
     default:
         break;
     }
+}
+
+void SR04MDriver::measureRequest()
+{
+    measureRequest_ = true;
+    measureState_ = BUSY;
+}
+
+SR04MDriver::MeasureState_e SR04MDriver::getMeasureState()
+{
+   return measureState_;
 }
 
 uint16_t SR04MDriver::getDurationTicks()

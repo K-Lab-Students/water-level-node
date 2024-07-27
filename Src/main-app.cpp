@@ -4,7 +4,7 @@
 extern "C" {
 #endif
 #include "stdio.h"
-#include "AT24Cxx_stm32_hal.h"
+// #include "AT24Cxx_stm32_hal.h"
 #include "main.h"
 #include "i2c.h"
 #include "usart.h"
@@ -23,19 +23,19 @@ uint8_t test_bytes[66] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,
     46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,
     61,62,63,64,65,66};
 
-uint8_t test_receive[66] = {0};
+// uint8_t test_receive[66] = {0};
 
-uint8_t i2cData[2] = {0,0};
-uint8_t txData[2] = {0x02,0xED};
+// uint8_t i2cData[2] = {0,0};
+// uint8_t txData[2] = {0x02,0xED};
 
 uint32_t timestp;
 SR04MDriver* usdDriver;
 
 void MainAppInit()
 {
-  AT24Cxx_devices_t device_array;
+  // AT24Cxx_devices_t device_array;
 
-  AT24Cxx_init(&device_array, 0x00, &hi2c1);
+  // AT24Cxx_init(&device_array, 0x00, &hi2c1);
 
   usdDriver = new SR04MDriver(&htim2, 20, SR04MDriver::HR04_COMPATIBLE);
   timestp = HAL_GetTick();
@@ -68,7 +68,10 @@ void MainAppProcess()
       if (!HAL_UART_Transmit(&huart1, (uint8_t*)txBuf, strlen(txBuf), HAL_MAX_DELAY) == HAL_OK) {
         Error_Handler();
       }
-      usdDriver->measureRequest();
+      if (usdDriver->getMeasureState() == SR04MDriver::MeasureState_e::DONE) {
+        usdDriver->measureRequest();
+      }
+ 
       timestp = HAL_GetTick();
     }
     

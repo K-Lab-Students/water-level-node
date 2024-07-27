@@ -14,16 +14,22 @@ public:
         LOW_POWER_PULSE
     };
 
+    enum MeasureState_e{
+        BUSY,
+        DONE
+    };
+
     SR04MDriver(TIM_HandleTypeDef *htim, uint8_t averageTaps, Workmode_e workmode);
     ~SR04MDriver() = default;
 
     void process();
 
-    void measureRequest() {measureRequest_ = true;};
+    void measureRequest();
 
     void signalCaptured();
 
     float getCurrentDistance();
+    MeasureState_e getMeasureState();
     uint16_t getDurationTicks();
 private:
     static SR04MDriver* driverInstance_;
@@ -42,6 +48,7 @@ private:
     float distanceSum_{0.f};
     uint32_t lastSamplingFinishTime{0};
     const uint32_t samplingTimeoutMs{200};
+    MeasureState_e measureState_{DONE};
 
     Workmode_e workmode_{HR04_COMPATIBLE};
     enum States_e {
