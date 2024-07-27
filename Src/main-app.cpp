@@ -27,16 +27,17 @@ uint8_t test_receive[66] = {0};
 
 uint8_t i2cData[2] = {0,0};
 uint8_t txData[2] = {0x02,0xED};
+
 uint32_t timestp;
-// SR04MDriver usdDriver = SR04MDriver(SR04MDriver::HR04_COMPATIBLE);
-SR04MDriver *usdDriver;// = SR04MDriver(SR04MDriver::HR04_COMPATIBLE);
+SR04MDriver* usdDriver;
+
 void MainAppInit()
 {
   AT24Cxx_devices_t device_array;
 
   AT24Cxx_init(&device_array, 0x00, &hi2c1);
 
-  usdDriver = new SR04MDriver(SR04MDriver::HR04_COMPATIBLE);
+  usdDriver = new SR04MDriver(&htim2, 20, SR04MDriver::HR04_COMPATIBLE);
   timestp = HAL_GetTick();
 }
 
@@ -56,13 +57,12 @@ void MainAppProcess()
 	  // AT24Cxx_read_byte_buffer(device_array.devices[0], 0x0010, test_receive, 66);
 
 	  // HAL_Delay(1000);
-
+  //  HAL_GPIO_TogglePin(outSTATUS_LED_GPIO_Port, outSTATUS_LED_Pin);
     usdDriver->process();
 
     if (HAL_GetTick() - timestp >= 500)
     {
-      HAL_GPIO_TogglePin(outSTATUS_LED_GPIO_Port, outSTATUS_LED_Pin);
-
+  
       sprintf(txBuf, "%f \n", usdDriver->getCurrentDistance());
 
       if (!HAL_UART_Transmit(&huart1, (uint8_t*)txBuf, strlen(txBuf), HAL_MAX_DELAY) == HAL_OK) {
