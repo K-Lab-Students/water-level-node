@@ -52,6 +52,9 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/AT24Cxx/AT24Cxx_stm32_hal.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/main-app.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/sr04m/SR04MDriver.cpp
+
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/sim7000cmqtt/src/ATCommunicator.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/sim7000cmqtt/src/SIM7000MQTT.cpp
 )
 
 # Add include paths
@@ -60,7 +63,9 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/AT24Cxx
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/sr04m
     ${CMAKE_CURRENT_SOURCE_DIR}/Inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/sim7000cmqtt/include
 )
+
 
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
