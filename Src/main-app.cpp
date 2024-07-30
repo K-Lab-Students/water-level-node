@@ -1,5 +1,6 @@
 #include "main-app.h"
 #include "SR04MDriver.h"
+#include "sim7000cmqtt/SIM7000MQTT.hpp"
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -30,12 +31,26 @@ uint8_t test_bytes[66] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,
 
 uint32_t timestp;
 SR04MDriver* usdDriver;
-
+const SIM7000MQTT::URL kURL = "212.192.134.141";
+const SIM7000MQTT::Port kPort = "1883";
+const SIM7000MQTT::CliendID kClientID = "dfrobot";
+const SIM7000MQTT::Username kUsername = "homeassistant";
+const SIM7000MQTT::Password kPassword = "up4IxZQaVLvxSeYbzRkJ";
+SIM7000MQTT* sim_7000_mqtt;
 void MainAppInit()
 {
   // AT24Cxx_devices_t device_array;
 
   // AT24Cxx_init(&device_array, 0x00, &hi2c1);
+  sim_7000_mqtt = new SIM7000MQTT(&hlpuart1, kURL, kPort, kClientID, kUsername, kPassword);
+	sim_7000_mqtt->waitInit();
+	sim_7000_mqtt->setupMQTT();
+
+	// sim_7000_mqtt->enableMQTT();
+
+	// sim_7000_mqtt->setupGNSS();
+
+	// sim_7000_mqtt->disableMQTT();
 
   usdDriver = new SR04MDriver(&htim2, 20, SR04MDriver::HR04_COMPATIBLE);
   timestp = HAL_GetTick();
@@ -60,7 +75,7 @@ void MainAppProcess()
   //  HAL_GPIO_TogglePin(outSTATUS_LED_GPIO_Port, outSTATUS_LED_Pin);
     usdDriver->process();
 
-    if (HAL_GetTick() - timestp >= 500)
+    if (HAL_GetTick() - timestp >= 5000)
     {
   
       sprintf(txBuf, "%f \n", usdDriver->getCurrentDistance());
@@ -71,6 +86,10 @@ void MainAppProcess()
       if (usdDriver->getMeasureState() == SR04MDriver::MeasureState_e::DONE) {
         usdDriver->measureRequest();
       }
+
+      sim_7000_mqtt->enableMQTT();
+      sim_7000_mqtt->publishMessage("test/test_stm", txBuf);
+      sim_7000_mqtt->disableMQTT();
  
       timestp = HAL_GetTick();
     }
