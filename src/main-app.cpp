@@ -30,7 +30,7 @@ uint8_t test_bytes[66] = { 1,  2,  3,  4,  5,  6,  7,  8,  9,  10, 11, 12, 13, 1
 uint32_t timestp;
 SR04MDriver* usdDriver;
 const SIM7000MQTT::URL kURL = "212.192.134.141";
-const SIM7000MQTT::Port kPort = "1883";
+const SIM7000MQTT::Port kPort = 1883;
 const SIM7000MQTT::CliendID kClientID = "dfrobot";
 const SIM7000MQTT::Username kUsername = "homeassistant";
 const SIM7000MQTT::Password kPassword = "up4IxZQaVLvxSeYbzRkJ";
@@ -44,13 +44,7 @@ void MainAppInit()
     sim_7000_mqtt->waitInit();
     sim_7000_mqtt->setupMQTT();
 
-    // sim_7000_mqtt->enableMQTT();
-
-    // sim_7000_mqtt->setupGNSS();
-
-    // sim_7000_mqtt->disableMQTT();
-
-    // usdDriver = new SR04MDriver(&htim2, 20, SR04MDriver::HR04_COMPATIBLE);
+    usdDriver = new SR04MDriver(&htim2, 20, SR04MDriver::HR04_COMPATIBLE);
     timestp = HAL_GetTick();
 }
 
@@ -71,21 +65,23 @@ void MainAppProcess()
 
     // HAL_Delay(1000);
     //  HAL_GPIO_TogglePin(outSTATUS_LED_GPIO_Port, outSTATUS_LED_Pin);
-    // usdDriver->process();
+    usdDriver->process();
 
     if (HAL_GetTick() - timestp >= 5000) {
-        // sprintf(txBuf, "%f \n", usdDriver->getCurrentDistance());
+        sprintf(txBuf, "%f", usdDriver->getCurrentDistance());
 
         // if (!HAL_UART_Transmit(&huart1, (uint8_t*)txBuf, strlen(txBuf), HAL_MAX_DELAY) == HAL_OK) {
         //   Error_Handler();
         // }
-        // if (usdDriver->getMeasureState() == SR04MDriver::MeasureState_e::DONE) {
-        //   usdDriver->measureRequest();
-        // }
+        if (usdDriver->getMeasureState() == SR04MDriver::MeasureState_e::DONE) {
+          usdDriver->measureRequest();
+        }
 
+        sim_7000_mqtt->wirelessConnectionOn();
         sim_7000_mqtt->enableMQTT();
-        sim_7000_mqtt->publishMessage("test/test_stm", "hi");
+        sim_7000_mqtt->publishMessage("test/test_stm", txBuf);
         sim_7000_mqtt->disableMQTT();
+        sim_7000_mqtt->wirelessConnectionOff();
 
         timestp = HAL_GetTick();
     }
