@@ -1,20 +1,17 @@
-#include "main-app.h"
-#include "SR04MDriver.h"
-#include "sim7000cmqtt/SIM7000MQTT.hpp"
-#ifdef __cplusplus
-extern "C" {
-#endif
-#include "stdio.h"
-// #include "AT24Cxx_stm32_hal.h"
+
+#include <cstring>
+#include <cstdio>
+
 #include "main.h"
 #include "i2c.h"
 #include "usart.h"
 #include "tim.h"
 #include "gpio.h"
-#include <string.h>
-#ifdef __cplusplus
-}
-#endif
+
+#include "main-app.h"
+#include "SR04MDriver.h"
+#include "sim7000cmqtt/SIM7000MQTT.hpp"
+// #include "AT24Cxx_stm32_hal.h"
 
 const unsigned char testString[] = "test\n";
 char txBuf[50];
@@ -74,14 +71,14 @@ void MainAppProcess()
         //   Error_Handler();
         // }
         if (usdDriver->getMeasureState() == SR04MDriver::MeasureState_e::DONE) {
-          usdDriver->measureRequest();
+            usdDriver->measureRequest();
         }
 
-        sim_7000_mqtt->wirelessConnectionOn();
+        sim_7000_mqtt->enableWirelessConnection();
         sim_7000_mqtt->enableMQTT();
         sim_7000_mqtt->publishMessage("test/test_stm", txBuf);
         sim_7000_mqtt->disableMQTT();
-        sim_7000_mqtt->wirelessConnectionOff();
+        sim_7000_mqtt->disableWirelessConnection();
 
         timestp = HAL_GetTick();
     }
