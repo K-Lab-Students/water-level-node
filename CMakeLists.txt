@@ -50,7 +50,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/AT24Cxx/AT24Cxx_stm32_hal.c
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/AT24Cxx/AT24Cxx_stm32_hal.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/Src/main-app.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/KernelApp.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/sr04m/SR04MDriver.cpp
 )
 
