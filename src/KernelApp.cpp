@@ -7,9 +7,6 @@ extern "C" {
 char txBuf[50];
 KernelApp::KernelApp(): _usdDriver(&htim2, 20, SR04MDriver::HR04_COMPATIBLE),
     sim_7000_mqtt(&hlpuart1, kURL, kPort, kClientID, kUsername, kPassword) {
-    
-    sim_7000_mqtt.waitInit();
-    sim_7000_mqtt.setupMQTT();
 }
 
 void KernelApp::process() {
@@ -17,6 +14,8 @@ void KernelApp::process() {
     switch (_state)
     {
     case INIT:
+        sim_7000_mqtt.waitInit();
+        sim_7000_mqtt.setupMQTT();
         _state = SELF_TEST;
         break;
         
@@ -32,7 +31,7 @@ void KernelApp::process() {
     case WAIT_FOR_MEASUREMENT:
         if (_usdDriver.getMeasureState() == SR04MDriver::DONE)
         {
-            sprintf(txBuf, "%f", _usdDriver.getCurrentDistance());
+            sprintf(txBuf, "%f \n", _usdDriver.getCurrentDistance());
             HAL_UART_Transmit(&huart1, (uint8_t*)txBuf , strlen(txBuf), HAL_MAX_DELAY);
 
           _state = SEND_DATA;  
