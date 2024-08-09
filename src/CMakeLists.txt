@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.22)
 
 project(main_app)
 
-add_library(${PROJECT_NAME} STATIC main-app.cpp main-app.h)
+add_library(${PROJECT_NAME} STATIC main-app.h KernelApp.h KernelApp.cpp)
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 

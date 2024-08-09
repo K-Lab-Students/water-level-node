@@ -40,7 +40,7 @@ void SR04MDriver::process()
 
             durationTicks_ = fallingTime_ - risingTime_;
             
-            durationS_ = 1.f / (static_cast<float>(HAL_RCC_GetPCLK1Freq()) / 10.f / static_cast<float>(durationTicks_));
+            durationS_ = 1.f / (static_cast<float>(HAL_RCC_GetPCLK1Freq()) / 5.f / static_cast<float>(durationTicks_));
             
             distanceRaw_ = durationS_ * speedOfSound_ / 2.f;
     
