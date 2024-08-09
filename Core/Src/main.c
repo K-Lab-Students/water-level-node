@@ -86,12 +86,14 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-  __HAL_RCC_I2C1_CLK_ENABLE();
-  HAL_Delay(100);
-  __HAL_RCC_I2C1_FORCE_RESET();
-  HAL_Delay(100);
-  __HAL_RCC_I2C1_RELEASE_RESET();
-  HAL_Delay(100);
+  // __HAL_RCC_I2C1_CLK_ENABLE();
+  // HAL_Delay(100);
+  // __HAL_RCC_I2C1_FORCE_RESET();
+  // HAL_Delay(100);
+  // __HAL_RCC_I2C1_RELEASE_RESET();
+  // HAL_Delay(100);
+  HAL_DBGMCU_EnableDBGSleepMode();
+  HAL_DBGMCU_EnableDBGStopMode();
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
