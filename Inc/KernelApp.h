@@ -2,6 +2,11 @@
 
 #include "SR04MDriver.h"
 
+extern "C" {
+    #include "rtc.h"
+    #include "usart.h"
+}
+
 class KernelApp
 {
 public:
@@ -18,6 +23,7 @@ private:
       SELF_TEST,
       GO_TO_SLEEP,
       MEASURE,
+      WAIT_FOR_MEASUREMENT,
       SEND_DATA
     };
 
@@ -27,4 +33,5 @@ private:
 
     SR04MDriver _usdDriver;
 
+    const uint32_t _measureWaitTimeout{5000};
 };
