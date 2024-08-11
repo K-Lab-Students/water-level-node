@@ -18,8 +18,14 @@ void KernelApp::process() {
     switch (_state)
     {
     case INIT:
-        // sim_7000_mqtt.waitInit();
-        // sim_7000_mqtt.setupMQTT();
+        sim_7000_mqtt.waitInit();
+
+        if (sim_7000_mqtt.setupMQTT() == SIM7000MQTT::Status::kOk) {
+            LOG("setupMQTT OK\r\n");
+        }else {
+            LOG("setupMQTT ERR\r\n");
+        }
+
         _state = SELF_TEST;
         break;
         
@@ -44,11 +50,36 @@ void KernelApp::process() {
         break;
 
     case SEND_DATA:
-        // sim_7000_mqtt.enableWirelessConnection();
-        // sim_7000_mqtt.enableMQTT();
-        // sim_7000_mqtt.publishMessage("test/test_stm", txBuf);
-        // sim_7000_mqtt.disableMQTT();
-        // sim_7000_mqtt.disableWirelessConnection();
+        if (sim_7000_mqtt.enableWirelessConnection() == SIM7000MQTT::Status::kOk) {
+            LOG("enableWirelessConnection OK\r\n");
+        }else {
+            LOG("enableWirelessConnection ERR\r\n");
+        }
+
+        if (sim_7000_mqtt.enableMQTT() == SIM7000MQTT::Status::kOk) {
+            LOG("enableMQTT OK\r\n");
+        }else {
+            LOG("enableMQTT ERR\r\n");
+        }
+        
+        if (sim_7000_mqtt.publishMessage("test/test_stm", txBuf) == SIM7000MQTT::Status::kOk) {
+            LOG("publishMessage OK\r\n");
+        }else {
+            LOG("publishMessage ERR\r\n");
+        }
+
+        if (sim_7000_mqtt.disableMQTT() == SIM7000MQTT::Status::kOk) {
+            LOG("disableMQTT OK\r\n");
+        }else {
+            LOG("disableMQTT ERR\r\n");
+        }
+
+        if (sim_7000_mqtt.disableWirelessConnection() == SIM7000MQTT::Status::kOk) {
+            LOG("disableWirelessConnection OK\r\n");
+        }else {
+            LOG("disableWirelessConnection ERR\r\n");
+        }
+
         _state = GO_TO_SLEEP;
         break;   
 
@@ -56,7 +87,7 @@ void KernelApp::process() {
         LOG("Enter sleep mode\r\n");
 
         #ifdef DEBUG
-        HAL_Delay(5000);
+        HAL_Delay(10000);
         #else
         HAL_SuspendTick();
         HAL_RTCEx_SetWakeUpTimer_IT(&hrtc, 0x12C, RTC_WAKEUPCLOCK_CK_SPRE_16BITS);
