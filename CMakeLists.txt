@@ -27,6 +27,10 @@ message("Build type: " ${CMAKE_BUILD_TYPE})
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})
 
+if(CMAKE_BUILD_TYPE EQUAL "Debug")
+    add_definitions(-DDEBUG)
+endif()
+
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
 add_subdirectory(src)
