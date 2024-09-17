@@ -28,18 +28,19 @@ private:
     };
 
     States _state{INIT};
-    
+
+    const uint32_t _measureWaitTimeout{5000};
+    const SIM7000MQTT::URL kURL = "212.192.134.141";
+    const SIM7000MQTT::Port kPort = 1883;
+    const SIM7000MQTT::CliendID kClientID = "dfrobot";
+    const SIM7000MQTT::Username kUsername = "homeassistant";
+    const SIM7000MQTT::Password kPassword = "up4IxZQaVLvxSeYbzRkJ";
+
     KernelApp();
 
     SR04MDriver _usdDriver;
 
     SIM7000MQTT sim_7000_mqtt;
 
-    const uint32_t _measureWaitTimeout{5000};
 
-    const SIM7000MQTT::URL kURL = "212.192.134.141";
-    const SIM7000MQTT::Port kPort = 1883;
-    const SIM7000MQTT::CliendID kClientID = "dfrobot";
-    const SIM7000MQTT::Username kUsername = "homeassistant";
-    const SIM7000MQTT::Password kPassword = "up4IxZQaVLvxSeYbzRkJ";
 };

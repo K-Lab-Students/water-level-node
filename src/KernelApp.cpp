@@ -9,9 +9,9 @@ extern "C" {
 }
 char txBuf[50];
 
+
 KernelApp::KernelApp(): _usdDriver(&htim2, 20, SR04MDriver::HR04_COMPATIBLE),
-    sim_7000_mqtt(&hlpuart1, kURL, kPort, kClientID, kUsername, kPassword) {
-}
+    sim_7000_mqtt(&hlpuart1, kURL, kPort, kClientID, kUsername, kPassword) {}
 
 void KernelApp::process() {
     _usdDriver.process();
@@ -19,13 +19,11 @@ void KernelApp::process() {
     {
     case INIT:
         sim_7000_mqtt.waitInit();
-
         if (sim_7000_mqtt.setupMQTT() == SIM7000MQTT::Status::kOk) {
             LOG("setupMQTT OK\r\n");
         }else {
             LOG("setupMQTT ERR\r\n");
         }
-
         _state = SELF_TEST;
         break;
         
