@@ -1,6 +1,7 @@
 #include "main-app.h"
 #include "SR04MDriver.h"
 #include "sim7000cmqtt/SIM7000MQTT.hpp"
+#include "adc.h"
 
 extern "C" {
     #include "rtc.h"

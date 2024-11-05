@@ -1,5 +1,8 @@
 #include "KernelApp.h"
 #include <cstring>
+#define ADC_REFERENCE_VOLTAGE                                           3.f
+#define VREFINT_CAL_ADDR 0x1FF80078
+uint16_t vrefint_cal_adr = *((uint16_t*)VREFINT_CAL_ADDR);
 
 #define LOG(msg) \
  HAL_UART_Transmit(&huart1, (uint8_t*)msg , sizeof(msg) - 1, HAL_MAX_DELAY)
@@ -8,7 +11,9 @@ extern "C" {
     extern void SystemClock_Config(void);
 }
 char txBuf[50];
-
+char txBufADC[50];
+uint32_t ADC_RES;
+double mcuVoltage;
 
 KernelApp::KernelApp(): _usdDriver(&htim2, 20, SR04MDriver::HR04_COMPATIBLE),
     sim_7000_mqtt(&hlpuart1, kURL, kPort, kClientID, kUsername, kPassword) {}
@@ -18,6 +23,7 @@ void KernelApp::process() {
     switch (_state)
     {
     case INIT:
+        HAL_ADCEx_Calibration_Start(&hadc,ADC_SINGLE_ENDED);
         sim_7000_mqtt.waitInit();
         if (sim_7000_mqtt.setupMQTT() == SIM7000MQTT::Status::kOk) {
             LOG("setupMQTT OK\r\n");
@@ -39,11 +45,15 @@ void KernelApp::process() {
     case WAIT_FOR_MEASUREMENT:
         if (_usdDriver.getMeasureState() == SR04MDriver::DONE)
         {
+            HAL_ADC_Start(&hadc);
+            HAL_ADC_PollForConversion(&hadc, 1);
+            ADC_RES = HAL_ADC_GetValue(&hadc);
+            mcuVoltage = 3.f *   *((uint16_t*)VREFINT_CAL_ADDR) / ADC_RES;
+            sprintf(txBufADC, "ADC %f\n", mcuVoltage);
             sprintf(txBuf, "%f \n", _usdDriver.getCurrentDistance());
-            
+            HAL_UART_Transmit(&huart1, (uint8_t*)txBufADC , strlen(txBufADC), HAL_MAX_DELAY);
             HAL_UART_Transmit(&huart1, (uint8_t*)txBuf , strlen(txBuf), HAL_MAX_DELAY);
-
-          _state = SEND_DATA;  
+            _state = SEND_DATA;
         }
         break;
 
@@ -66,6 +76,12 @@ void KernelApp::process() {
             LOG("publishMessage ERR\r\n");
         }
 
+        if (sim_7000_mqtt.publishMessage("test/test_stm", txBufADC) == SIM7000MQTT::Status::kOk) {
+            LOG("publishMessageADC OK\r\n");
+        }else {
+            LOG("publishMessageADC ERR\r\n");
+        }
+
         if (sim_7000_mqtt.disableMQTT() == SIM7000MQTT::Status::kOk) {
             LOG("disableMQTT OK\r\n");
         }else {
@@ -84,16 +100,16 @@ void KernelApp::process() {
     case GO_TO_SLEEP:
         LOG("Enter sleep mode\r\n");
 
-        #ifdef DEBUG
-        HAL_Delay(10000);
-        #else
-        HAL_SuspendTick();
-        HAL_RTCEx_SetWakeUpTimer_IT(&hrtc, 0x12C, RTC_WAKEUPCLOCK_CK_SPRE_16BITS);
-        HAL_PWR_EnterSTOPMode(PWR_LOWPOWERREGULATOR_ON, PWR_STOPENTRY_WFI);
-        HAL_RTCEx_DeactivateWakeUpTimer(&hrtc);
-        SystemClock_Config();
-        HAL_ResumeTick();
-        #endif
+    #ifdef DEBUGF
+                HAL_Delay(2000);
+    #else
+                HAL_SuspendTick();
+                HAL_RTCEx_SetWakeUpTimer_IT(&hrtc, 0x012C, RTC_WAKEUPCLOCK_CK_SPRE_16BITS);
+                HAL_PWR_EnterSTOPMode(PWR_LOWPOWERREGULATOR_ON, PWR_STOPENTRY_WFI);
+                HAL_RTCEx_DeactivateWakeUpTimer(&hrtc);
+                SystemClock_Config();
+                HAL_ResumeTick();
+    #endif
 
         LOG("Exit sleep mode\r\n");
         _state = MEASURE;

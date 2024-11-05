@@ -7,6 +7,7 @@
 #include "usart.h"
 #include "tim.h"
 #include "gpio.h"
+#include "adc.h"
 
 #include "main-app.h"
 #include "SR04MDriver.h"
