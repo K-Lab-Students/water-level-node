@@ -49,7 +49,7 @@ void KernelApp::process() {
             HAL_ADC_PollForConversion(&hadc, 1);
             ADC_RES = HAL_ADC_GetValue(&hadc);
             mcuVoltage = 3.f *   *((uint16_t*)VREFINT_CAL_ADDR) / ADC_RES;
-            sprintf(txBufADC, "ADC %f\n", mcuVoltage);
+            sprintf(txBufADC, "%f\n", mcuVoltage);
             sprintf(txBuf, "%f \n", _usdDriver.getCurrentDistance());
             HAL_UART_Transmit(&huart1, (uint8_t*)txBufADC , strlen(txBufADC), HAL_MAX_DELAY);
             HAL_UART_Transmit(&huart1, (uint8_t*)txBuf , strlen(txBuf), HAL_MAX_DELAY);
@@ -70,13 +70,13 @@ void KernelApp::process() {
             LOG("enableMQTT ERR\r\n");
         }
         
-        if (sim_7000_mqtt.publishMessage("test/test_stm", txBuf) == SIM7000MQTT::Status::kOk) {
+        if (sim_7000_mqtt.publishMessage("test/water", txBuf) == SIM7000MQTT::Status::kOk) {
             LOG("publishMessage OK\r\n");
         }else {
             LOG("publishMessage ERR\r\n");
         }
 
-        if (sim_7000_mqtt.publishMessage("test/test_stm", txBufADC) == SIM7000MQTT::Status::kOk) {
+        if (sim_7000_mqtt.publishMessage("test/battery", txBufADC) == SIM7000MQTT::Status::kOk) {
             LOG("publishMessageADC OK\r\n");
         }else {
             LOG("publishMessageADC ERR\r\n");
@@ -116,8 +116,7 @@ void KernelApp::process() {
         break;
 
     default:
-    break;
-
+        break;
     }
 }
 
