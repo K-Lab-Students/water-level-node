@@ -93,8 +93,10 @@ int main(void)
   // HAL_Delay(100);
   // __HAL_RCC_I2C1_RELEASE_RESET();
   // HAL_Delay(100);
+  #ifdef DEBUG
   HAL_DBGMCU_EnableDBGSleepMode();
   HAL_DBGMCU_EnableDBGStopMode();
+  #endif
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
