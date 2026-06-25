@@ -31,6 +31,7 @@ private:
     States _state{INIT};
 
     const uint32_t _measureWaitTimeout{5000};
+    static constexpr uint32_t kSleepIntervalSeconds{300};
     const SIM7000MQTT::URL kURL = "212.192.134.141";
     const SIM7000MQTT::Port kPort = 1883;
     const SIM7000MQTT::CliendID kClientID = "dfrobot";
@@ -38,6 +39,7 @@ private:
     const SIM7000MQTT::Password kPassword = "up4IxZQaVLvxSeYbzRkJ";
 
     KernelApp();
+    bool sleepUntilRtcWakeup();
 
     SR04MDriver _usdDriver;
 
