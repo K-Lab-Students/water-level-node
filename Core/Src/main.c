@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "i2c.h"
 #include "usart.h"
 #include "rtc.h"
@@ -92,8 +93,10 @@ int main(void)
   // HAL_Delay(100);
   // __HAL_RCC_I2C1_RELEASE_RESET();
   // HAL_Delay(100);
+  #ifdef DEBUG
   HAL_DBGMCU_EnableDBGSleepMode();
   HAL_DBGMCU_EnableDBGStopMode();
+  #endif
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -103,6 +106,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_TIM2_Init();
   MX_RTC_Init();
+  MX_ADC_Init();
   /* USER CODE BEGIN 2 */
   MainAppInit();
   /* USER CODE END 2 */

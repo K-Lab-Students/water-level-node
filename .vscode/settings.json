@@ -1,7 +1,0 @@
-{
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "files.associations": {
-        "main.h": "c",
-        "stm32l0xx_hal.h": "c"
-    }
-}
